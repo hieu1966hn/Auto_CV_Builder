@@ -15,8 +15,8 @@ Groups:
 - `test`: test evidence
 
 Rule for conceptual prompts (no UI/code runtime change):
-- Generate a unique `code` image from each `docs/prompt-results/PXX.md`.
 - Keep `ui` optional; do not duplicate the same UI image across many prompts unless explicitly marked as baseline only.
+- Do not capture final book images from raw `docs/prompt-results/*.md` previews.
 
 Examples:
 - `P00-ui-01-current-state.png`

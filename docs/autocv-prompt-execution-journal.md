@@ -58,11 +58,11 @@ Vi du:
 | P18 | DONE | docs/screenshots/prompt-18/ | ket qua: docs/prompt-results/P18.md |
 | P19 | DONE | docs/screenshots/prompt-19/ | ket qua: docs/prompt-results/P19.md |
 | P20 | DONE | docs/screenshots/prompt-20/ | ket qua: docs/prompt-results/P20.md |
-| P21 | TODO | docs/screenshots/prompt-21/ | |
-| P22 | TODO | docs/screenshots/prompt-22/ | |
-| P23 | TODO | docs/screenshots/prompt-23/ | |
-| P24 | TODO | docs/screenshots/prompt-24/ | |
-| P25 | TODO | docs/screenshots/prompt-25/ | |
+| P21 | DONE | docs/screenshots/prompt-21/ | ket qua: docs/prompt-results/P21.md |
+| P22 | DONE | docs/screenshots/prompt-22/ | ket qua: docs/prompt-results/P22.md |
+| P23 | DONE | docs/screenshots/prompt-23/ | ket qua: docs/prompt-results/P23.md |
+| P24 | DONE | docs/screenshots/prompt-24/ | ket qua: docs/prompt-results/P24.md |
+| P25 | DONE | docs/screenshots/prompt-25/ | ket qua: docs/prompt-results/P25.md |
 | P26 | TODO | docs/screenshots/prompt-26/ | |
 | P27 | TODO | docs/screenshots/prompt-27/ | |
 | P28 | TODO | docs/screenshots/prompt-28/ | |
@@ -148,12 +148,11 @@ Mo ta: [PXX] [test] ...
 
 ## 5.1) Luu y cho prompt mang tinh khai niem
 
-- Neu prompt chua tao thay doi giao dien/chay code, can chup anh `code` tu file `docs/prompt-results/PXX.md` de giu tinh lien tuc.
+- Neu prompt chua tao thay doi giao dien/chay code, uu tien ghi ro \"khong co thay doi UI\" thay vi tao anh phu khong can thiet.
 - Anh `ui` chi dung khi co thay doi giao dien that su, hoac danh dau ro la baseline.
 
-Cap nhat sua loi da thuc hien:
-- Da bo sung anh `code` rieng cho `P01` den `P20` theo mau:
-  `docs/screenshots/prompt-XX/PXX-code-01-prompt-note.png`.
+Cap nhat quy trinh:
+- Anh render tu `docs/prompt-results/*.md` khong dung cho bo anh cuoi de viet sach.
 
 ## 6) Runs da hoan thanh (P01-P05)
 
@@ -522,3 +521,69 @@ Khong co thay doi code o prompt nay.
 
 #### Anh err
 Khong phat sinh loi.
+
+## 10) Runs da hoan thanh (P21-P25)
+
+### Prompt P21
+- Muc tieu: Them validation co ban va trang thai du lieu tren UI.
+- Prompt da dung: Prompt #21 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `index.html`, `styles.css`, `scripts/scripts.js`, `docs/prompt-results/P21.md`.
+- Lenh run/test: mo trang local + test tay cac truong form.
+- Ket qua: Co khung validation va badge trang thai tren preview.
+- Drift danh gia: large (trang thai chung cua branch).
+
+#### Anh ui
+![P21 ui 01](docs/screenshots/prompt-21/P21-ui-01-validation-layout.png)
+Mo ta: [P21] [ui] Giao dien co them khoi validation va badge trang thai.
+
+### Prompt P22
+- Muc tieu: Debug loi he thong khong cap nhat preview/validation.
+- Prompt da dung: Prompt #22 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `index.html`, `docs/prompt-results/P22.md`.
+- Lenh run/test: reload trang sau khi sua script path.
+- Ket qua: JS da nap dung, luong input -> preview/validation da chay.
+- Drift danh gia: large (trang thai chung cua branch).
+
+#### Anh ui
+![P22 ui 01](docs/screenshots/prompt-22/P22-ui-01-script-fix-active.png)
+Mo ta: [P22] [ui] Sau fix script path, hanh vi validation duoc kich hoat.
+
+### Prompt P23
+- Muc tieu: Bo sung bo du lieu test bien va thao tac nhanh.
+- Prompt da dung: Prompt #23 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `index.html`, `styles.css`, `scripts/scripts.js`, `docs/prompt-results/P23.md`.
+- Lenh run/test: bam `Tai du lieu bien`, kiem tra canh bao, bam `Xoa nhanh`.
+- Ket qua: Co bo nut test bien + reset, phuc vu demo test case bien.
+- Drift danh gia: large (trang thai chung cua branch).
+
+#### Anh ui
+![P23 ui 01](docs/screenshots/prompt-23/P23-ui-01-edge-tools.png)
+Mo ta: [P23] [ui] Form co them nut `Tai du lieu bien` va `Xoa nhanh`.
+
+### Prompt P24
+- Muc tieu: Them regression checklist de test lai sau moi lan sua.
+- Prompt da dung: Prompt #24 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `index.html`, `styles.css`, `docs/prompt-results/P24.md`.
+- Lenh run/test: mo panel regression va doi chieu tung muc test.
+- Ket qua: Co panel checklist regression toi thieu ngay tren giao dien.
+- Drift danh gia: large (trang thai chung cua branch).
+
+#### Anh ui
+![P24 ui 01](docs/screenshots/prompt-24/P24-ui-01-regression-checklist.png)
+Mo ta: [P24] [ui] Bo sung panel checklist regression phuc vu test lap lai.
+
+### Prompt P25
+- Muc tieu: Chot mau bao cao fix bug theo 5 muc bat buoc.
+- Prompt da dung: Prompt #25 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `index.html`, `styles.css`, `docs/prompt-results/P25.md`.
+- Lenh run/test: mo panel mau bao cao va xac nhan hien du 5 muc.
+- Ket qua: Co panel huong dan fix bug theo format chuan.
+- Drift danh gia: large (trang thai chung cua branch).
+
+#### Anh ui
+![P25 ui 01](docs/screenshots/prompt-25/P25-ui-01-fix-report-template.png)
+Mo ta: [P25] [ui] Preview co them panel mau bao cao fix bug 5 muc bat buoc.
+
+Ghi chu chat luong anh:
+- Tu P21 tro di, anh tap trung vao UI/runtime thay doi that su.
+- Khong dung anh render tu `docs/prompt-results/` de tranh boi canh den va gay nham.

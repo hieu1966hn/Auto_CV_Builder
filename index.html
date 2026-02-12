@@ -60,7 +60,25 @@ Thiết kế UI @ XYZ - 2019-2021"></textarea>
           Học vấn (mỗi dòng: chuyên ngành @ trường - năm)
           <textarea name="education" rows="3" placeholder="Công nghệ thông tin @ Đại học Bách khoa - 2015-2019"></textarea>
         </label>
-        <button type="button" id="generate-btn">Tạo CV</button>
+        <div class="action-row">
+          <button type="button" id="generate-btn">Tạo CV</button>
+          <button type="button" id="edge-data-btn" class="secondary-btn">Tải dữ liệu biên</button>
+          <button type="button" id="reset-btn" class="ghost-btn">Xóa nhanh</button>
+        </div>
+        <div id="validation-summary" class="validation-summary" aria-live="polite">
+          <strong>Kiểm tra dữ liệu</strong>
+          <p>Chưa kiểm tra. Hãy nhập thông tin để xem trạng thái dữ liệu.</p>
+        </div>
+        <details class="regression-panel">
+          <summary>Checklist regression tối thiểu</summary>
+          <ul>
+            <li>Input thay đổi thì preview cập nhật ngay.</li>
+            <li>Kỹ năng tách đúng theo dấu phẩy.</li>
+            <li>Kinh nghiệm và học vấn hiển thị đúng số dòng.</li>
+            <li>Validation báo lỗi khi thiếu họ tên/email sai định dạng.</li>
+            <li>Bố cục vẫn đọc được trên màn hình hẹp.</li>
+          </ul>
+        </details>
       </form>
     </section>
     <section class="panel preview-panel">
@@ -70,6 +88,7 @@ Thiết kế UI @ XYZ - 2019-2021"></textarea>
           <div>
             <h3 id="preview-name">Họ Tên</h3>
             <p id="preview-headline">Vị trí mong muốn</p>
+            <p id="preview-status" class="status-badge status-idle">Chưa kiểm tra dữ liệu</p>
           </div>
           <div class="preview-contact">
             <p id="preview-location">Địa chỉ</p>
@@ -102,9 +121,19 @@ Thiết kế UI @ XYZ - 2019-2021"></textarea>
             <li>Công nghệ thông tin @ ĐH Bách khoa - 2015-2019</li>
           </ul>
         </section>
+        <details class="report-panel">
+          <summary>Mẫu báo cáo fix bug (5 mục bắt buộc)</summary>
+          <ol>
+            <li>Nguyên nhân gốc</li>
+            <li>File cần sửa</li>
+            <li>Đoạn cần sửa</li>
+            <li>Cách test lại</li>
+            <li>Rủi ro còn lại</li>
+          </ol>
+        </details>
       </article>
     </section>
   </section>
-  <script src="scripts.js"></script>
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>
