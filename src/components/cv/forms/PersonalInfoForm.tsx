@@ -44,9 +44,10 @@ export const PersonalInfoForm = () => {
     // Sync from store to form if store changes externally (e.g. load/import)
     // Only reset if specific visible fields are different to avoid loops with invisible fields like 'photo'
     // Sync from store to form ONLY if dataVersion changes (Import or Reset)
+    // Sync from store to form ONLY if dataVersion changes (Import or Reset)
     useEffect(() => {
         reset(resumeData.personalInfo);
-    }, [dataVersion, reset, resumeData.personalInfo]);
+    }, [dataVersion, reset]); // Removed resumeData.personalInfo to avoid loop
 
     return (
         <div className="space-y-4">
