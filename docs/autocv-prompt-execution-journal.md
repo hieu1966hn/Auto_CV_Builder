@@ -146,6 +146,15 @@ Mo ta: [PXX] [test] ...
 4. Dan block chi tiet Prompt PXX vao tai lieu nay, dat anh va mo ta ngay ben duoi anh.
 5. Cap nhat trang thai Prompt PXX trong bang theo doi (TODO -> DONE).
 
+## 5.1) Luu y cho prompt mang tinh khai niem
+
+- Neu prompt chua tao thay doi giao dien/chay code, can chup anh `code` tu file `docs/prompt-results/PXX.md` de giu tinh lien tuc.
+- Anh `ui` chi dung khi co thay doi giao dien that su, hoac danh dau ro la baseline.
+
+Cap nhat sua loi da thuc hien:
+- Da bo sung anh `code` rieng cho `P01` den `P20` theo mau:
+  `docs/screenshots/prompt-XX/PXX-code-01-prompt-note.png`.
+
 ## 6) Runs da hoan thanh (P01-P05)
 
 ### Prompt P01
