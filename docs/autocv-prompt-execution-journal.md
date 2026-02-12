@@ -48,16 +48,16 @@ Vi du:
 | P08 | DONE | docs/screenshots/prompt-08/ | ket qua: docs/prompt-results/P08.md |
 | P09 | DONE | docs/screenshots/prompt-09/ | ket qua: docs/prompt-results/P09.md |
 | P10 | DONE | docs/screenshots/prompt-10/ | ket qua: docs/prompt-results/P10.md |
-| P11 | TODO | docs/screenshots/prompt-11/ | |
-| P12 | TODO | docs/screenshots/prompt-12/ | |
-| P13 | TODO | docs/screenshots/prompt-13/ | |
-| P14 | TODO | docs/screenshots/prompt-14/ | |
-| P15 | TODO | docs/screenshots/prompt-15/ | |
-| P16 | TODO | docs/screenshots/prompt-16/ | |
-| P17 | TODO | docs/screenshots/prompt-17/ | |
-| P18 | TODO | docs/screenshots/prompt-18/ | |
-| P19 | TODO | docs/screenshots/prompt-19/ | |
-| P20 | TODO | docs/screenshots/prompt-20/ | |
+| P11 | DONE | docs/screenshots/prompt-11/ | ket qua: docs/prompt-results/P11.md |
+| P12 | DONE | docs/screenshots/prompt-12/ | ket qua: docs/prompt-results/P12.md |
+| P13 | DONE | docs/screenshots/prompt-13/ | ket qua: docs/prompt-results/P13.md |
+| P14 | DONE | docs/screenshots/prompt-14/ | ket qua: docs/prompt-results/P14.md |
+| P15 | DONE | docs/screenshots/prompt-15/ | ket qua: docs/prompt-results/P15.md |
+| P16 | DONE | docs/screenshots/prompt-16/ | ket qua: docs/prompt-results/P16.md |
+| P17 | DONE | docs/screenshots/prompt-17/ | ket qua: docs/prompt-results/P17.md |
+| P18 | DONE | docs/screenshots/prompt-18/ | ket qua: docs/prompt-results/P18.md |
+| P19 | DONE | docs/screenshots/prompt-19/ | ket qua: docs/prompt-results/P19.md |
+| P20 | DONE | docs/screenshots/prompt-20/ | ket qua: docs/prompt-results/P20.md |
 | P21 | TODO | docs/screenshots/prompt-21/ | |
 | P22 | TODO | docs/screenshots/prompt-22/ | |
 | P23 | TODO | docs/screenshots/prompt-23/ | |
@@ -323,6 +323,190 @@ Khong phat sinh loi.
 #### Anh ui
 ![P10 ui 01](docs/screenshots/prompt-10/P10-ui-01-current-state.png)
 Mo ta: [P10] [ui] UI baseline cho bo regression test xuyen suot cac vong lap.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+## 8) Runs da hoan thanh (P11-P15)
+
+### Prompt P11
+- Muc tieu: Giai thich 6 khai niem co ban qua vi du AutoCV.
+- Prompt da dung: Prompt #11 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P11.md` (khong doi source code web).
+- Lenh run/test: N/A (vong code-reading tai lieu).
+- Ket qua: Da co khung khai niem Input/State/Binding/Render/Event/Validate.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P11 ui 01](docs/screenshots/prompt-11/P11-ui-01-current-state.png)
+Mo ta: [P11] [ui] UI baseline dung de gan vi du cho cac khai niem co ban.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P12
+- Muc tieu: De xuat thu tu doc code cho nguoi moi.
+- Prompt da dung: Prompt #12 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P12.md` (khong doi source code web).
+- Lenh run/test: N/A (vong code-reading tai lieu).
+- Ket qua: Da co thu tu doc `index.html` -> `scripts/scripts.js` -> `styles.css`.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P12 ui 01](docs/screenshots/prompt-12/P12-ui-01-current-state.png)
+Mo ta: [P12] [ui] UI baseline de doi chieu voi file mapping khi doc code.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P13
+- Muc tieu: Tao bo cau hoi tu kiem tra khi doc code.
+- Prompt da dung: Prompt #13 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P13.md` (khong doi source code web).
+- Lenh run/test: N/A (vong code-reading tai lieu).
+- Ket qua: Da co 12 cau hoi de lan data flow va debug.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P13 ui 01](docs/screenshots/prompt-13/P13-ui-01-current-state.png)
+Mo ta: [P13] [ui] UI baseline de hoc vien map cau hoi vao man hinh that.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P14
+- Muc tieu: Minh hoa bug "preview khong cap nhat" va cach lan tim.
+- Prompt da dung: Prompt #14 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P14.md` (khong doi source code web).
+- Lenh run/test: N/A (vong code-reading tai lieu).
+- Ket qua: Da co quy trinh 5 buoc khoanh vung nguyen nhan bug.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P14 ui 01](docs/screenshots/prompt-14/P14-ui-01-current-state.png)
+Mo ta: [P14] [ui] UI baseline de mo ta hien tuong preview khong cap nhat.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P15
+- Muc tieu: Tao template ghi chu doc code tai su dung.
+- Prompt da dung: Prompt #15 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P15.md` (khong doi source code web).
+- Lenh run/test: N/A (vong code-reading tai lieu).
+- Ket qua: Da co template 9 dong de doc file co he thong.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P15 ui 01](docs/screenshots/prompt-15/P15-ui-01-current-state.png)
+Mo ta: [P15] [ui] UI baseline cho bai hoc ghi chu doc code.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+## 9) Runs da hoan thanh (P16-P20)
+
+### Prompt P16
+- Muc tieu: Tao roadmap 8 vong lap cho giai doan creating.
+- Prompt da dung: Prompt #16 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P16.md` (khong doi source code web).
+- Lenh run/test: N/A (vong planning tai lieu).
+- Ket qua: Da co roadmap 8 buoc theo luong Input -> Data -> Display -> Export -> Security.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P16 ui 01](docs/screenshots/prompt-16/P16-ui-01-current-state.png)
+Mo ta: [P16] [ui] UI baseline de dinh huong roadmap tinh nang.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P17
+- Muc tieu: Ke hoach chi tiet vong lap #1 (form toi thieu).
+- Prompt da dung: Prompt #17 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P17.md` (khong doi source code web).
+- Lenh run/test: N/A (vong planning tai lieu).
+- Ket qua: Da co pham vi va tieu chi test cho vong lap #1.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P17 ui 01](docs/screenshots/prompt-17/P17-ui-01-current-state.png)
+Mo ta: [P17] [ui] UI baseline de map cac truong cua form toi thieu.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P18
+- Muc tieu: Ke hoach vong lap #2 (validation than thien).
+- Prompt da dung: Prompt #18 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P18.md` (khong doi source code web).
+- Lenh run/test: N/A (vong planning tai lieu).
+- Ket qua: Da co danh sach validate uu tien va test pass/fail.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P18 ui 01](docs/screenshots/prompt-18/P18-ui-01-current-state.png)
+Mo ta: [P18] [ui] UI baseline cho bai hoc bo sung validation.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P19
+- Muc tieu: Ke hoach vong lap #3 (live preview).
+- Prompt da dung: Prompt #19 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P19.md` (khong doi source code web).
+- Lenh run/test: N/A (vong planning tai lieu).
+- Ket qua: Da co mapping du lieu chi tiet tu form sang preview.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P19 ui 01](docs/screenshots/prompt-19/P19-ui-01-current-state.png)
+Mo ta: [P19] [ui] UI baseline de doi chieu mapping data binding.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P20
+- Muc tieu: Ke hoach vong lap #4 (export PDF A4).
+- Prompt da dung: Prompt #20 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P20.md` (khong doi source code web).
+- Lenh run/test: N/A (vong planning tai lieu).
+- Ket qua: Da co huong lam, gioi han chap nhan va tieu chi test cho export.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P20 ui 01](docs/screenshots/prompt-20/P20-ui-01-current-state.png)
+Mo ta: [P20] [ui] UI baseline cho bai hoc mo rong sang xuat ban.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
