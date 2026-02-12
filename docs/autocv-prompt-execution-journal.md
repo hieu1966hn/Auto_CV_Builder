@@ -38,11 +38,11 @@ Vi du:
 
 | Prompt | Trang thai | Thu muc anh | Ghi chu |
 |---|---|---|---|
-| P01 | TODO | docs/screenshots/prompt-01/ | |
-| P02 | TODO | docs/screenshots/prompt-02/ | |
-| P03 | TODO | docs/screenshots/prompt-03/ | |
-| P04 | TODO | docs/screenshots/prompt-04/ | |
-| P05 | TODO | docs/screenshots/prompt-05/ | |
+| P01 | DONE | docs/screenshots/prompt-01/ | ket qua: docs/prompt-results/P01.md |
+| P02 | DONE | docs/screenshots/prompt-02/ | ket qua: docs/prompt-results/P02.md |
+| P03 | DONE | docs/screenshots/prompt-03/ | ket qua: docs/prompt-results/P03.md |
+| P04 | DONE | docs/screenshots/prompt-04/ | ket qua: docs/prompt-results/P04.md |
+| P05 | DONE | docs/screenshots/prompt-05/ | ket qua: docs/prompt-results/P05.md |
 | P06 | TODO | docs/screenshots/prompt-06/ | |
 | P07 | TODO | docs/screenshots/prompt-07/ | |
 | P08 | TODO | docs/screenshots/prompt-08/ | |
@@ -145,3 +145,95 @@ Mo ta: [PXX] [test] ...
 3. Chup anh theo nhom phu hop (`env/tree/code/ui/err/test`).
 4. Dan block chi tiet Prompt PXX vao tai lieu nay, dat anh va mo ta ngay ben duoi anh.
 5. Cap nhat trang thai Prompt PXX trong bang theo doi (TODO -> DONE).
+
+## 6) Runs da hoan thanh (P01-P05)
+
+### Prompt P01
+- Muc tieu: Giai thich du an AutoCV cho nguoi moi.
+- Prompt da dung: Prompt #01 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P01.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging, chua code).
+- Ket qua: Da co mo ta muc tieu, input/output, va cach hieu don gian.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P01 ui 01](docs/screenshots/prompt-01/P01-ui-01-current-state.png)
+Mo ta: [P01] [ui] Anh baseline UI tai thoi diem bat dau lo trinh prompt.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P02
+- Muc tieu: Phan ra bai toan thanh cac khoi Input/Data/Display/Export/Security.
+- Prompt da dung: Prompt #02 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P02.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging, chua code).
+- Ket qua: Da co cau truc 5 khoi de hoc vien hieu pham vi he thong.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P02 ui 01](docs/screenshots/prompt-02/P02-ui-01-current-state.png)
+Mo ta: [P02] [ui] UI giu nguyen, minh hoa giai doan phan ra bai toan truoc khi coding.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P03
+- Muc tieu: Mo ta luong du lieu bang chu.
+- Prompt da dung: Prompt #03 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P03.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging, chua code).
+- Ket qua: Da co luong chinh input -> state -> preview, kem luong export va bao mat.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P03 ui 01](docs/screenshots/prompt-03/P03-ui-01-current-state.png)
+Mo ta: [P03] [ui] UI baseline dung de doi chieu voi data flow duoc mo ta trong prompt.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P04
+- Muc tieu: Xac dinh danh sach tinh nang MVP theo uu tien.
+- Prompt da dung: Prompt #04 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P04.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging, chua code).
+- Ket qua: Da co roadmap MVP -> should-have -> next-stage de dat huong trien khai.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P04 ui 01](docs/screenshots/prompt-04/P04-ui-01-current-state.png)
+Mo ta: [P04] [ui] UI hien tai duoc dung lam moc de doi chieu voi danh sach MVP.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P05
+- Muc tieu: Tao 10 user stories cho AutoCV.
+- Prompt da dung: Prompt #05 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P05.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging, chua code).
+- Ket qua: Da co 10 user stories de dung cho backlog va bai giang.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P05 ui 01](docs/screenshots/prompt-05/P05-ui-01-current-state.png)
+Mo ta: [P05] [ui] UI baseline cho giai doan xay backlog user stories.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
