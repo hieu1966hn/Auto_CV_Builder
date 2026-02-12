@@ -21,7 +21,7 @@ const personalInfoSchema = z.object({
 type PersonalInfoFormData = z.infer<typeof personalInfoSchema>;
 
 export const PersonalInfoForm = () => {
-    const { resumeData, setPersonalInfo } = useResumeStore();
+    const { resumeData, setPersonalInfo, dataVersion } = useResumeStore();
 
     const { register, handleSubmit, watch, formState: { errors }, reset } = useForm<PersonalInfoFormData>({
         resolver: zodResolver(personalInfoSchema),
@@ -43,21 +43,10 @@ export const PersonalInfoForm = () => {
 
     // Sync from store to form if store changes externally (e.g. load/import)
     // Only reset if specific visible fields are different to avoid loops with invisible fields like 'photo'
+    // Sync from store to form ONLY if dataVersion changes (Import or Reset)
     useEffect(() => {
-        const currentValues = watch();
-        const hasChanged =
-            currentValues.fullName !== resumeData.personalInfo.fullName ||
-            currentValues.email !== resumeData.personalInfo.email ||
-            currentValues.phone !== resumeData.personalInfo.phone ||
-            currentValues.address !== resumeData.personalInfo.address ||
-            currentValues.summary !== resumeData.personalInfo.summary ||
-            currentValues.linkedin !== resumeData.personalInfo.linkedin ||
-            currentValues.website !== resumeData.personalInfo.website;
-
-        if (hasChanged) {
-            reset(resumeData.personalInfo);
-        }
-    }, [resumeData.personalInfo, reset, watch]);
+        reset(resumeData.personalInfo);
+    }, [dataVersion, reset, resumeData.personalInfo]);
 
     return (
         <div className="space-y-4">
@@ -66,9 +55,11 @@ export const PersonalInfoForm = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Full Name</label>
+                    <label htmlFor="fullName" className="text-sm font-medium text-gray-700">Full Name</label>
                     <input
+                        id="fullName"
                         {...register('fullName')}
+                        autoComplete="name"
                         className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
                         placeholder="John Doe"
                     />
@@ -76,10 +67,12 @@ export const PersonalInfoForm = () => {
                 </div>
 
                 <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Email</label>
+                    <label htmlFor="email" className="text-sm font-medium text-gray-700">Email</label>
                     <input
+                        id="email"
                         {...register('email')}
                         type="email"
+                        autoComplete="email"
                         className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
                         placeholder="john@example.com"
                     />
@@ -89,18 +82,22 @@ export const PersonalInfoForm = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Phone</label>
+                    <label htmlFor="phone" className="text-sm font-medium text-gray-700">Phone</label>
                     <input
+                        id="phone"
                         {...register('phone')}
+                        autoComplete="tel"
                         className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
                         placeholder="+1 234 567 890"
                     />
                 </div>
 
                 <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Address</label>
+                    <label htmlFor="address" className="text-sm font-medium text-gray-700">Address</label>
                     <input
+                        id="address"
                         {...register('address')}
+                        autoComplete="street-address"
                         className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
                         placeholder="New York, NY"
                     />
@@ -109,9 +106,11 @@ export const PersonalInfoForm = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">LinkedIn URL</label>
+                    <label htmlFor="linkedin" className="text-sm font-medium text-gray-700">LinkedIn URL</label>
                     <input
+                        id="linkedin"
                         {...register('linkedin')}
+                        autoComplete="url"
                         className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
                         placeholder="https://linkedin.com/in/username"
                     />
@@ -119,9 +118,11 @@ export const PersonalInfoForm = () => {
                 </div>
 
                 <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Website / Portfolio</label>
+                    <label htmlFor="website" className="text-sm font-medium text-gray-700">Website / Portfolio</label>
                     <input
+                        id="website"
                         {...register('website')}
+                        autoComplete="url"
                         className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
                         placeholder="https://yourportfolio.com"
                     />
@@ -130,8 +131,9 @@ export const PersonalInfoForm = () => {
             </div>
 
             <div className="space-y-2">
-                <label className="text-sm font-medium text-gray-700">Professional Summary</label>
+                <label htmlFor="summary" className="text-sm font-medium text-gray-700">Professional Summary</label>
                 <textarea
+                    id="summary"
                     {...register('summary')}
                     rows={4}
                     className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"

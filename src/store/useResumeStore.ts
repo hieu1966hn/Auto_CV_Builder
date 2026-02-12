@@ -36,11 +36,14 @@ interface ResumeState {
 
     // Full Reset
     resetResume: () => void;
+    dataVersion: number;
 }
 
 export const useResumeStore = create<ResumeState>((set) => ({
     resumeData: initialResumeData,
     selectedTemplate: 'elegant',
+
+    dataVersion: 0,
 
     setTemplate: (templateId) => set({ selectedTemplate: templateId }),
 
@@ -206,6 +209,7 @@ export const useResumeStore = create<ResumeState>((set) => ({
     // Import
     importData: (data) =>
         set((state) => ({
+            dataVersion: state.dataVersion + 1,
             resumeData: {
                 ...state.resumeData,
                 personalInfo: { ...state.resumeData.personalInfo, ...data.personalInfo },
@@ -216,5 +220,8 @@ export const useResumeStore = create<ResumeState>((set) => ({
             },
         })),
 
-    resetResume: () => set({ resumeData: initialResumeData }),
+    resetResume: () => set((state) => ({
+        resumeData: initialResumeData,
+        dataVersion: state.dataVersion + 1
+    })),
 }));
