@@ -43,11 +43,11 @@ Vi du:
 | P03 | DONE | docs/screenshots/prompt-03/ | ket qua: docs/prompt-results/P03.md |
 | P04 | DONE | docs/screenshots/prompt-04/ | ket qua: docs/prompt-results/P04.md |
 | P05 | DONE | docs/screenshots/prompt-05/ | ket qua: docs/prompt-results/P05.md |
-| P06 | TODO | docs/screenshots/prompt-06/ | |
-| P07 | TODO | docs/screenshots/prompt-07/ | |
-| P08 | TODO | docs/screenshots/prompt-08/ | |
-| P09 | TODO | docs/screenshots/prompt-09/ | |
-| P10 | TODO | docs/screenshots/prompt-10/ | |
+| P06 | DONE | docs/screenshots/prompt-06/ | ket qua: docs/prompt-results/P06.md |
+| P07 | DONE | docs/screenshots/prompt-07/ | ket qua: docs/prompt-results/P07.md |
+| P08 | DONE | docs/screenshots/prompt-08/ | ket qua: docs/prompt-results/P08.md |
+| P09 | DONE | docs/screenshots/prompt-09/ | ket qua: docs/prompt-results/P09.md |
+| P10 | DONE | docs/screenshots/prompt-10/ | ket qua: docs/prompt-results/P10.md |
 | P11 | TODO | docs/screenshots/prompt-11/ | |
 | P12 | TODO | docs/screenshots/prompt-12/ | |
 | P13 | TODO | docs/screenshots/prompt-13/ | |
@@ -231,6 +231,98 @@ Khong phat sinh loi.
 #### Anh ui
 ![P05 ui 01](docs/screenshots/prompt-05/P05-ui-01-current-state.png)
 Mo ta: [P05] [ui] UI baseline cho giai doan xay backlog user stories.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+## 7) Runs da hoan thanh (P06-P10)
+
+### Prompt P06
+- Muc tieu: Tao checklist test thu cong cho MVP.
+- Prompt da dung: Prompt #06 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P06.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging/testing tai lieu).
+- Ket qua: Da co checklist test buoc-qua-buoc cho nguoi moi.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P06 ui 01](docs/screenshots/prompt-06/P06-ui-01-current-state.png)
+Mo ta: [P06] [ui] UI baseline cho bo checklist test thu cong.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P07
+- Muc tieu: Liet ke loi thuong gap de hoc vien nhan dien nhanh.
+- Prompt da dung: Prompt #07 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P07.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging/testing tai lieu).
+- Ket qua: Da co danh sach 15 loi thuong gap lam khung debug.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P07 ui 01](docs/screenshots/prompt-07/P07-ui-01-current-state.png)
+Mo ta: [P07] [ui] UI baseline dung cho bai hoc nhan dien loi thuong gap.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P08
+- Muc tieu: Dinh nghia Definition of Done cho MVP.
+- Prompt da dung: Prompt #08 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P08.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging/testing tai lieu).
+- Ket qua: Da co bo tieu chi pass/fail cho MVP AutoCV.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P08 ui 01](docs/screenshots/prompt-08/P08-ui-01-current-state.png)
+Mo ta: [P08] [ui] UI baseline de doi chieu voi DoD da xac lap.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P09
+- Muc tieu: Tao bang test case co cau truc.
+- Prompt da dung: Prompt #09 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P09.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging/testing tai lieu).
+- Ket qua: Da co bang test case co ID, buoc test, ket qua mong doi, uu tien.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P09 ui 01](docs/screenshots/prompt-09/P09-ui-01-current-state.png)
+Mo ta: [P09] [ui] UI baseline de map tung test case voi man hinh that.
+
+#### Anh code
+Khong co thay doi code o prompt nay.
+
+#### Anh err
+Khong phat sinh loi.
+
+### Prompt P10
+- Muc tieu: Chot 5 regression test quan trong phai chay lai.
+- Prompt da dung: Prompt #10 trong `docs/autocv-vibe-prompt-pack.md`.
+- File thay doi: `docs/prompt-results/P10.md` (khong doi source code web).
+- Lenh run/test: N/A (vong engaging/testing tai lieu).
+- Ket qua: Da co top 5 regression test co the dung lap lai moi vong sua bug.
+- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+
+#### Anh ui
+![P10 ui 01](docs/screenshots/prompt-10/P10-ui-01-current-state.png)
+Mo ta: [P10] [ui] UI baseline cho bo regression test xuyen suot cac vong lap.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
