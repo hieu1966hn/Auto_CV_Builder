@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE_REF="${1:-origin/main}"
+BASE_REF="${1:-origin/HEAD}"
 TARGET_REF="${2:-HEAD}"
 
 if ! git rev-parse --verify "${BASE_REF}" >/dev/null 2>&1; then

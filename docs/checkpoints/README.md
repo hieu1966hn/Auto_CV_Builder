@@ -7,9 +7,9 @@ Filename format:
 
 Minimum fields (required):
 - Step
-- Main files touched
+- Core files touched
 - Teaching reason
-- Drift vs main (`small` / `medium` / `large`)
+- Drift vs baseline (`small` / `medium` / `large`)
 
 Recommended command flow:
 1. Run drift check: `bash scripts/check_drift.sh`

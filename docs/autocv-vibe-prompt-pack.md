@@ -123,29 +123,29 @@ Muc tieu: quan ly dau ra, bao mat, nang cap san pham va kiem soat no ky thuat.
 
 ---
 
-## D. Alignment with `main` (Bat buoc de khong lech qua xa)
-Muc tieu: sau khi hoc vien da quen vong lap, dung nhom prompt nay de dua branch demo ve gan voi `origin/main`.
+## D. Alignment with project baseline (Bat buoc de khong lech qua xa)
+Muc tieu: sau khi hoc vien da quen vong lap, dung nhom prompt nay de dua branch demo ve gan voi baseline reference.
 
 ### D1. Problem Decomposition (5 prompts)
-46. `Hay so sanh nhanh branch hien tai voi origin/main: file nao them, file nao xoa, file nao doi. Tra ket qua theo bang A/M/D.`
-47. `Tu diff voi main, hay chia ke hoach dong bo thanh 3 dot nho: (1) khoi phuc cau truc, (2) khoi phuc config, (3) gop logic bai hoc.`
+46. `Hay so sanh nhanh branch hien tai voi baseline reference: file nao them, file nao xoa, file nao doi. Tra ket qua theo bang A/M/D.`
+47. `Tu diff voi baseline, hay chia ke hoach dong bo thanh 3 dot nho: (1) khoi phuc cau truc, (2) khoi phuc config, (3) gop logic bai hoc.`
 48. `Hay lap bang quyet dinh giu/bo cho tung thay doi lon, kem ly do su pham va tac dong ky thuat.`
-49. `Neu muc tieu la "gan main nhat co the", hay xep thu tu khoi phuc file tu de den kho, uu tien file can cho build chay.`
+49. `Neu muc tieu la "gan baseline nhat co the", hay xep thu tu khoi phuc file tu de den kho, uu tien file can cho build chay.`
 50. `Hay de xuat ke hoach commit nho de dong bo (moi commit 1 y), de de review va rollback khi can.`
 
 ### D2. Testing (5 prompts)
-51. `Sau moi commit dong bo ve main, hay dua checklist test bat buoc de chac rang app khong vo.`
-52. `Hay tao bo regression test danh cho giai doan reconciliation voi main: UI, data flow, export, basic security.`
-53. `Neu phat hien xung dot giua "feature demo" va "main", hay de xuat cach giai quyet co thu tu uu tien ro rang.`
+51. `Sau moi commit dong bo ve baseline, hay dua checklist test bat buoc de chac rang app khong vo.`
+52. `Hay tao bo regression test danh cho giai doan reconciliation voi baseline: UI, data flow, export, basic security.`
+53. `Neu phat hien xung dot giua "feature demo" va "baseline", hay de xuat cach giai quyet co thu tu uu tien ro rang.`
 54. `Hay danh gia drift hien tai theo muc small/medium/large dua tren so file thay doi va core-structure changes.`
-55. `Khi ket thuc dot dong bo, hay yeu cau AI tu bao cao: con lech gi voi main, rui ro nao chua xu ly, buoc tiep theo la gi.`
+55. `Khi ket thuc dot dong bo, hay yeu cau AI tu bao cao: con lech gi voi baseline, rui ro nao chua xu ly, buoc tiep theo la gi.`
 
 ### D3. Code Reading (5 prompts)
-56. `Hay giai thich nhung khac biet quan trong nhat giua code hien tai va origin/main bang ngon ngu nguoi moi.`
-57. `Chi ro phan state/data flow nao trong branch demo dang khac voi main va tac dong den hanh vi nguoi dung.`
-58. `Hay tom tat nhung file da duoc khoi phuc tu main, file nao con no dong bo, va tai sao.`
-59. `Voi tung file con lech main, hay cho 1 ly do giu lai hoac 1 de xuat merge lai de dat can bang day hoc + san pham.`
-60. `Tao bao cao cuoi ky: muc do gan voi main (phan tram uoc tinh), changelog chinh, va danh sach viec can dong bo dot sau.`
+56. `Hay giai thich nhung khac biet quan trong nhat giua code hien tai va baseline reference bang ngon ngu nguoi moi.`
+57. `Chi ro phan state/data flow nao trong branch demo dang khac voi baseline va tac dong den hanh vi nguoi dung.`
+58. `Hay tom tat nhung file da duoc khoi phuc theo baseline, file nao con no dong bo, va tai sao.`
+59. `Voi tung file con lech baseline, hay cho 1 ly do giu lai hoac 1 de xuat merge lai de dat can bang day hoc + san pham.`
+60. `Tao bao cao cuoi ky: muc do gan voi baseline (phan tram uoc tinh), changelog chinh, va danh sach viec can dong bo dot sau.`
 
 ---
 
@@ -154,5 +154,5 @@ Muc tieu: sau khi hoc vien da quen vong lap, dung nhom prompt nay de dua branch 
 ### Muc co ban (cho hoc vien moi)
 `Ban dang ho tro du an AutoCV cho nguoi moi hoc. Hay lam dung 6 muc theo thu tu: (1) Nhac lai muc tieu vong nay, (2) Dua code thay doi toi thieu, (3) Chi ro file can sua, (4) Checklist test thu cong, (5) Neu loi thi cach debug, (6) Giai thich data flow/state/re-render bang ngon ngu don gian.`
 
-### Muc nang cao (khi can bam sat main)
-`Ban dang ho tro branch demo AutoCV nhung phai giu khong lech qua xa origin/main. Moi tra loi bat buoc gom: (1) muc tieu vong, (2) diff du kien voi main, (3) patch toi thieu, (4) test + regression, (5) anh can chup theo nhom env/tree/code/ui/err/test, (6) danh gia drift small/medium/large.`
+### Muc nang cao (khi can bam sat baseline)
+`Ban dang ho tro branch demo AutoCV nhung phai giu khong lech qua xa baseline reference. Moi tra loi bat buoc gom: (1) muc tieu vong, (2) diff du kien voi baseline, (3) patch toi thieu, (4) test + regression, (5) anh can chup theo nhom env/tree/code/ui/err/test, (6) danh gia drift small/medium/large.`

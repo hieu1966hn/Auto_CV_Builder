@@ -21,10 +21,10 @@ cat > "${OUT_FILE}" <<EOF
 # Checkpoint ${STAMP}
 
 - Step: ${STEP}
-- Main files touched: ${FILES}
+- Core files touched: ${FILES}
 - Teaching reason: ${REASON}
-- Drift vs main: ${DRIFT}
-- Drift command: \`git diff --name-status origin/main...HEAD\`
+- Drift vs baseline: ${DRIFT}
+- Drift command: \`git diff --name-status <baseline-ref>...HEAD\`
 - Notes:
 EOF
 
