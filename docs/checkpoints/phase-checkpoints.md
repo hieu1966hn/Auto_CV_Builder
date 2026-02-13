@@ -13,13 +13,13 @@ Muc tieu: co moc quay lui ro rang theo 3 giai doan de day hoc va review.
 - Noi dung: khoi phuc React architecture va bo component cốt loi.
 
 3. PDF phase checkpoint (`phase-pdf-p60`)
-- Commit: `c33b1f9`
+- Commit: `69dab5c`
 - Noi dung: React/PDF runtime evidence day du (UI that + test log + journal cap nhat).
 
 Branch checkpoints:
 - `checkpoint-dom-p25` -> `558a305`
 - `checkpoint-react-p52` -> `609c5b5`
-- `checkpoint-pdf-p60` -> `c33b1f9`
+- `checkpoint-pdf-p60` -> `69dab5c`
 
 ## Cach quay lui nhanh
 
