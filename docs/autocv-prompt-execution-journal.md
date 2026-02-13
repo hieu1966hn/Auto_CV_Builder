@@ -125,27 +125,27 @@ Sao chep block nay cho tung prompt va thay `PXX` thanh so prompt thuc te.
 - Drift danh gia: <small|medium|large>
 
 #### Anh env (neu co)
-![PXX env 01](docs/screenshots/prompt-XX/PXX-env-01-example.png)
+![PXX env 01](screenshots/prompt-XX/PXX-env-01-example.png)
 Mo ta: [PXX] [env] ...
 
 #### Anh tree (neu co)
-![PXX tree 01](docs/screenshots/prompt-XX/PXX-tree-01-example.png)
+![PXX tree 01](screenshots/prompt-XX/PXX-tree-01-example.png)
 Mo ta: [PXX] [tree] ...
 
 #### Anh code
-![PXX code 01](docs/screenshots/prompt-XX/PXX-code-01-example.png)
+![PXX code 01](screenshots/prompt-XX/PXX-code-01-example.png)
 Mo ta: [PXX] [code] ...
 
 #### Anh ui
-![PXX ui 01](docs/screenshots/prompt-XX/PXX-ui-01-example.png)
+![PXX ui 01](screenshots/prompt-XX/PXX-ui-01-example.png)
 Mo ta: [PXX] [ui] ...
 
 #### Anh err (neu co)
-![PXX err 01](docs/screenshots/prompt-XX/PXX-err-01-example.png)
+![PXX err 01](screenshots/prompt-XX/PXX-err-01-example.png)
 Mo ta: [PXX] [err] ...
 
 #### Anh test (khuyen nghi)
-![PXX test 01](docs/screenshots/prompt-XX/PXX-test-01-example.png)
+![PXX test 01](screenshots/prompt-XX/PXX-test-01-example.png)
 Mo ta: [PXX] [test] ...
 ```
 
@@ -177,7 +177,7 @@ Cap nhat quy trinh:
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P01 ui 01](docs/screenshots/prompt-01/P01-ui-01-current-state.png)
+![P01 ui 01](screenshots/prompt-01/P01-ui-01-current-state.png)
 Mo ta: [P01] [ui] Anh moc ban dau UI tai thoi diem bat dau lo trinh prompt.
 
 #### Anh code
@@ -195,7 +195,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P02 ui 01](docs/screenshots/prompt-02/P02-ui-01-current-state.png)
+![P02 ui 01](screenshots/prompt-02/P02-ui-01-current-state.png)
 Mo ta: [P02] [ui] UI giu nguyen, minh hoa giai doan phan ra bai toan truoc khi coding.
 
 #### Anh code
@@ -213,7 +213,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P03 ui 01](docs/screenshots/prompt-03/P03-ui-01-current-state.png)
+![P03 ui 01](screenshots/prompt-03/P03-ui-01-current-state.png)
 Mo ta: [P03] [ui] UI moc ban dau dung de doi chieu voi data flow duoc mo ta trong prompt.
 
 #### Anh code
@@ -231,7 +231,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P04 ui 01](docs/screenshots/prompt-04/P04-ui-01-current-state.png)
+![P04 ui 01](screenshots/prompt-04/P04-ui-01-current-state.png)
 Mo ta: [P04] [ui] UI hien tai duoc dung lam moc de doi chieu voi danh sach MVP.
 
 #### Anh code
@@ -249,7 +249,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P05 ui 01](docs/screenshots/prompt-05/P05-ui-01-current-state.png)
+![P05 ui 01](screenshots/prompt-05/P05-ui-01-current-state.png)
 Mo ta: [P05] [ui] UI moc ban dau cho giai doan xay backlog user stories.
 
 #### Anh code
@@ -269,7 +269,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P06 ui 01](docs/screenshots/prompt-06/P06-ui-01-current-state.png)
+![P06 ui 01](screenshots/prompt-06/P06-ui-01-current-state.png)
 Mo ta: [P06] [ui] UI moc ban dau cho bo checklist test thu cong.
 
 #### Anh code
@@ -287,7 +287,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P07 ui 01](docs/screenshots/prompt-07/P07-ui-01-current-state.png)
+![P07 ui 01](screenshots/prompt-07/P07-ui-01-current-state.png)
 Mo ta: [P07] [ui] UI moc ban dau dung cho bai hoc nhan dien loi thuong gap.
 
 #### Anh code
@@ -305,7 +305,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P08 ui 01](docs/screenshots/prompt-08/P08-ui-01-current-state.png)
+![P08 ui 01](screenshots/prompt-08/P08-ui-01-current-state.png)
 Mo ta: [P08] [ui] UI moc ban dau de doi chieu voi DoD da xac lap.
 
 #### Anh code
@@ -323,7 +323,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P09 ui 01](docs/screenshots/prompt-09/P09-ui-01-current-state.png)
+![P09 ui 01](screenshots/prompt-09/P09-ui-01-current-state.png)
 Mo ta: [P09] [ui] UI moc ban dau de map tung test case voi man hinh that.
 
 #### Anh code
@@ -341,7 +341,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P10 ui 01](docs/screenshots/prompt-10/P10-ui-01-current-state.png)
+![P10 ui 01](screenshots/prompt-10/P10-ui-01-current-state.png)
 Mo ta: [P10] [ui] UI moc ban dau cho bo regression test xuyen suot cac vong lap.
 
 #### Anh code
@@ -361,7 +361,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P11 ui 01](docs/screenshots/prompt-11/P11-ui-01-current-state.png)
+![P11 ui 01](screenshots/prompt-11/P11-ui-01-current-state.png)
 Mo ta: [P11] [ui] UI moc ban dau dung de gan vi du cho cac khai niem co ban.
 
 #### Anh code
@@ -379,7 +379,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P12 ui 01](docs/screenshots/prompt-12/P12-ui-01-current-state.png)
+![P12 ui 01](screenshots/prompt-12/P12-ui-01-current-state.png)
 Mo ta: [P12] [ui] UI moc ban dau de doi chieu voi file mapping khi doc code.
 
 #### Anh code
@@ -397,7 +397,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P13 ui 01](docs/screenshots/prompt-13/P13-ui-01-current-state.png)
+![P13 ui 01](screenshots/prompt-13/P13-ui-01-current-state.png)
 Mo ta: [P13] [ui] UI moc ban dau de hoc vien map cau hoi vao man hinh that.
 
 #### Anh code
@@ -415,7 +415,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P14 ui 01](docs/screenshots/prompt-14/P14-ui-01-current-state.png)
+![P14 ui 01](screenshots/prompt-14/P14-ui-01-current-state.png)
 Mo ta: [P14] [ui] UI moc ban dau de mo ta hien tuong preview khong cap nhat.
 
 #### Anh code
@@ -433,7 +433,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P15 ui 01](docs/screenshots/prompt-15/P15-ui-01-current-state.png)
+![P15 ui 01](screenshots/prompt-15/P15-ui-01-current-state.png)
 Mo ta: [P15] [ui] UI moc ban dau cho bai hoc ghi chu doc code.
 
 #### Anh code
@@ -453,7 +453,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P16 ui 01](docs/screenshots/prompt-16/P16-ui-01-current-state.png)
+![P16 ui 01](screenshots/prompt-16/P16-ui-01-current-state.png)
 Mo ta: [P16] [ui] UI moc ban dau de dinh huong roadmap tinh nang.
 
 #### Anh code
@@ -471,7 +471,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P17 ui 01](docs/screenshots/prompt-17/P17-ui-01-current-state.png)
+![P17 ui 01](screenshots/prompt-17/P17-ui-01-current-state.png)
 Mo ta: [P17] [ui] UI moc ban dau de map cac truong cua form toi thieu.
 
 #### Anh code
@@ -489,7 +489,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P18 ui 01](docs/screenshots/prompt-18/P18-ui-01-current-state.png)
+![P18 ui 01](screenshots/prompt-18/P18-ui-01-current-state.png)
 Mo ta: [P18] [ui] UI moc ban dau cho bai hoc bo sung validation.
 
 #### Anh code
@@ -507,7 +507,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P19 ui 01](docs/screenshots/prompt-19/P19-ui-01-current-state.png)
+![P19 ui 01](screenshots/prompt-19/P19-ui-01-current-state.png)
 Mo ta: [P19] [ui] UI moc ban dau de doi chieu mapping data binding.
 
 #### Anh code
@@ -525,7 +525,7 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
 
 #### Anh ui
-![P20 ui 01](docs/screenshots/prompt-20/P20-ui-01-current-state.png)
+![P20 ui 01](screenshots/prompt-20/P20-ui-01-current-state.png)
 Mo ta: [P20] [ui] UI moc ban dau cho bai hoc mo rong sang xuat ban.
 
 #### Anh code
@@ -545,15 +545,15 @@ Khong phat sinh loi.
 - Drift danh gia: large (trang thai chung cua branch).
 
 #### Anh ui
-![P21 ui 01](docs/screenshots/prompt-21/P21-ui-01-validation-layout.png)
+![P21 ui 01](screenshots/prompt-21/P21-ui-01-validation-layout.png)
 Mo ta: [P21] [ui] Giao dien co them khoi validation va badge trang thai.
 
 #### Anh code
-![P21 code 01](docs/screenshots/prompt-21/P21-code-01-index-validation-block.png)
+![P21 code 01](screenshots/prompt-21/P21-code-01-index-validation-block.png)
 Mo ta: [P21] [code] `index.html` them `validation-summary` va status badge.
-![P21 code 02](docs/screenshots/prompt-21/P21-code-02-styles-validation-status.png)
+![P21 code 02](screenshots/prompt-21/P21-code-02-styles-validation-status.png)
 Mo ta: [P21] [code] `styles.css` them style validation + status classes.
-![P21 code 03](docs/screenshots/prompt-21/P21-code-03-scripts-validation-flow.png)
+![P21 code 03](screenshots/prompt-21/P21-code-03-scripts-validation-flow.png)
 Mo ta: [P21] [code] `scripts/scripts.js` them luong collect/render validation.
 
 ### Prompt P22
@@ -565,11 +565,11 @@ Mo ta: [P21] [code] `scripts/scripts.js` them luong collect/render validation.
 - Drift danh gia: large (trang thai chung cua branch).
 
 #### Anh ui
-![P22 ui 01](docs/screenshots/prompt-22/P22-ui-01-script-fix-active.png)
+![P22 ui 01](screenshots/prompt-22/P22-ui-01-script-fix-active.png)
 Mo ta: [P22] [ui] Sau fix script path, hanh vi validation duoc kich hoat.
 
 #### Anh code
-![P22 code 01](docs/screenshots/prompt-22/P22-code-01-index-script-path-fix.png)
+![P22 code 01](screenshots/prompt-22/P22-code-01-index-script-path-fix.png)
 Mo ta: [P22] [code] `index.html` sua duong dan script de kich hoat JS runtime.
 
 ### Prompt P23
@@ -581,15 +581,15 @@ Mo ta: [P22] [code] `index.html` sua duong dan script de kich hoat JS runtime.
 - Drift danh gia: large (trang thai chung cua branch).
 
 #### Anh ui
-![P23 ui 01](docs/screenshots/prompt-23/P23-ui-01-edge-tools.png)
+![P23 ui 01](screenshots/prompt-23/P23-ui-01-edge-tools.png)
 Mo ta: [P23] [ui] Form co them nut `Tai du lieu bien` va `Xoa nhanh`.
 
 #### Anh code
-![P23 code 01](docs/screenshots/prompt-23/P23-code-01-index-action-row.png)
+![P23 code 01](screenshots/prompt-23/P23-code-01-index-action-row.png)
 Mo ta: [P23] [code] `index.html` them action-row voi 3 nut thao tac.
-![P23 code 02](docs/screenshots/prompt-23/P23-code-02-styles-action-buttons.png)
+![P23 code 02](screenshots/prompt-23/P23-code-02-styles-action-buttons.png)
 Mo ta: [P23] [code] `styles.css` them style cho `action-row`, `secondary-btn`, `ghost-btn`.
-![P23 code 03](docs/screenshots/prompt-23/P23-code-03-scripts-edge-reset.png)
+![P23 code 03](screenshots/prompt-23/P23-code-03-scripts-edge-reset.png)
 Mo ta: [P23] [code] `scripts/scripts.js` them ham nap du lieu bien va reset nhanh.
 
 ### Prompt P24
@@ -601,13 +601,13 @@ Mo ta: [P23] [code] `scripts/scripts.js` them ham nap du lieu bien va reset nhan
 - Drift danh gia: large (trang thai chung cua branch).
 
 #### Anh ui
-![P24 ui 01](docs/screenshots/prompt-24/P24-ui-01-regression-checklist.png)
+![P24 ui 01](screenshots/prompt-24/P24-ui-01-regression-checklist.png)
 Mo ta: [P24] [ui] Bo sung panel checklist regression phuc vu test lap lai.
 
 #### Anh code
-![P24 code 01](docs/screenshots/prompt-24/P24-code-01-index-regression-panel.png)
+![P24 code 01](screenshots/prompt-24/P24-code-01-index-regression-panel.png)
 Mo ta: [P24] [code] `index.html` them panel regression checklist trong form.
-![P24 code 02](docs/screenshots/prompt-24/P24-code-02-styles-regression-panel.png)
+![P24 code 02](screenshots/prompt-24/P24-code-02-styles-regression-panel.png)
 Mo ta: [P24] [code] `styles.css` them style panel regression.
 
 ### Prompt P25
@@ -619,13 +619,13 @@ Mo ta: [P24] [code] `styles.css` them style panel regression.
 - Drift danh gia: large (trang thai chung cua branch).
 
 #### Anh ui
-![P25 ui 01](docs/screenshots/prompt-25/P25-ui-01-fix-report-template.png)
+![P25 ui 01](screenshots/prompt-25/P25-ui-01-fix-report-template.png)
 Mo ta: [P25] [ui] Preview co them panel mau bao cao fix bug 5 muc bat buoc.
 
 #### Anh code
-![P25 code 01](docs/screenshots/prompt-25/P25-code-01-index-report-panel.png)
+![P25 code 01](screenshots/prompt-25/P25-code-01-index-report-panel.png)
 Mo ta: [P25] [code] `index.html` them panel mau bao cao fix bug.
-![P25 code 02](docs/screenshots/prompt-25/P25-code-02-styles-report-panel.png)
+![P25 code 02](screenshots/prompt-25/P25-code-02-styles-report-panel.png)
 Mo ta: [P25] [code] `styles.css` them style cho report panel.
 
 Ghi chu chat luong anh:
@@ -729,7 +729,7 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P28 code 01](docs/screenshots/prompt-28/P28-code-01-scripts-comment-map.png)
+![P28 code 01](screenshots/prompt-28/P28-code-01-scripts-comment-map.png)
 
 Mo ta: [P28] [code] `scripts/scripts.js` duoc gan comment mo ta luong xu ly.
 
@@ -766,7 +766,7 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P29 code 01](docs/screenshots/prompt-29/P29-code-01-scripts-refactor-parse-skills.png)
+![P29 code 01](screenshots/prompt-29/P29-code-01-scripts-refactor-parse-skills.png)
 
 Mo ta: [P29] [code] Refactor helper parse skill de ham chinh de doc hon.
 
@@ -808,7 +808,7 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-![P30 ui 01](docs/screenshots/prompt-30/P30-ui-01-dom-stage-final.png)
+![P30 ui 01](screenshots/prompt-30/P30-ui-01-dom-stage-final.png)
 
 Mo ta: [P30] [ui] UI moc ket thuc giai doan DOM thuan (`FormData + eventListener`).
 
@@ -1020,15 +1020,15 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P36 code 01](docs/screenshots/prompt-36/P36-code-01-package-json.png)
+![P36 code 01](screenshots/prompt-36/P36-code-01-package-json.png)
 
 Mo ta: [P36] [code] Bo scripts/deps cho ung dung React.
 
-![P36 code 02](docs/screenshots/prompt-36/P36-code-02-next-config-ts.png)
+![P36 code 02](screenshots/prompt-36/P36-code-02-next-config-ts.png)
 
 Mo ta: [P36] [code] Cau hinh Next runtime.
 
-![P36 code 03](docs/screenshots/prompt-36/P36-code-03-tsconfig-json.png)
+![P36 code 03](screenshots/prompt-36/P36-code-03-tsconfig-json.png)
 
 Mo ta: [P36] [code] Cau hinh TypeScript.
 
@@ -1065,15 +1065,15 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P37 code 01](docs/screenshots/prompt-37/P37-code-01-eslint-config-mjs.png)
+![P37 code 01](screenshots/prompt-37/P37-code-01-eslint-config-mjs.png)
 
 Mo ta: [P37] [code] Cau hinh lint React/Next.
 
-![P37 code 02](docs/screenshots/prompt-37/P37-code-02-postcss-config-mjs.png)
+![P37 code 02](screenshots/prompt-37/P37-code-02-postcss-config-mjs.png)
 
 Mo ta: [P37] [code] Cau hinh PostCSS.
 
-![P37 code 03](docs/screenshots/prompt-37/P37-code-03-readme-md.png)
+![P37 code 03](screenshots/prompt-37/P37-code-03-readme-md.png)
 
 Mo ta: [P37] [code] README runtime huong dan local.
 
@@ -1110,7 +1110,7 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P38 code 01](docs/screenshots/prompt-38/P38-code-01-package-lock-json.png)
+![P38 code 01](screenshots/prompt-38/P38-code-01-package-lock-json.png)
 
 Mo ta: [P38] [code] Dong bo lock file dependency.
 
@@ -1147,11 +1147,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P39 code 01](docs/screenshots/prompt-39/P39-code-01-file-svg.png)
+![P39 code 01](screenshots/prompt-39/P39-code-01-file-svg.png)
 
 Mo ta: [P39] [code] Asset file.svg.
 
-![P39 code 02](docs/screenshots/prompt-39/P39-code-02-globe-svg.png)
+![P39 code 02](screenshots/prompt-39/P39-code-02-globe-svg.png)
 
 Mo ta: [P39] [code] Asset globe.svg.
 
@@ -1188,15 +1188,15 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P40 code 01](docs/screenshots/prompt-40/P40-code-01-next-svg.png)
+![P40 code 01](screenshots/prompt-40/P40-code-01-next-svg.png)
 
 Mo ta: [P40] [code] Asset next.svg.
 
-![P40 code 02](docs/screenshots/prompt-40/P40-code-02-vercel-svg.png)
+![P40 code 02](screenshots/prompt-40/P40-code-02-vercel-svg.png)
 
 Mo ta: [P40] [code] Asset vercel.svg.
 
-![P40 code 03](docs/screenshots/prompt-40/P40-code-03-window-svg.png)
+![P40 code 03](screenshots/prompt-40/P40-code-03-window-svg.png)
 
 Mo ta: [P40] [code] Asset window.svg.
 
@@ -1233,11 +1233,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P41 code 01](docs/screenshots/prompt-41/P41-code-01-globals-css.png)
+![P41 code 01](screenshots/prompt-41/P41-code-01-globals-css.png)
 
 Mo ta: [P41] [code] Global style cua app React.
 
-![P41 code 02](docs/screenshots/prompt-41/P41-code-02-layout-tsx.png)
+![P41 code 02](screenshots/prompt-41/P41-code-02-layout-tsx.png)
 
 Mo ta: [P41] [code] App layout cap goc.
 
@@ -1269,14 +1269,14 @@ Khong co anh o nhom nay.
 
 #### Anh tree
 
-![P42 tree 01](docs/screenshots/prompt-42/P42-tree-01-react-structure.png)
+![P42 tree 01](screenshots/prompt-42/P42-tree-01-react-structure.png)
 
 Mo ta: [P42] [tree] Cau truc thu muc React sau migration shell.
 
 
 #### Anh code
 
-![P42 code 01](docs/screenshots/prompt-42/P42-code-01-page-tsx.png)
+![P42 code 01](screenshots/prompt-42/P42-code-01-page-tsx.png)
 
 Mo ta: [P42] [code] Trang chu React voi editor + preview.
 
@@ -1313,11 +1313,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P43 code 01](docs/screenshots/prompt-43/P43-code-01-resume-ts.png)
+![P43 code 01](screenshots/prompt-43/P43-code-01-resume-ts.png)
 
 Mo ta: [P43] [code] Khai bao schema du lieu CV.
 
-![P43 code 02](docs/screenshots/prompt-43/P43-code-02-useresumestore-ts.png)
+![P43 code 02](screenshots/prompt-43/P43-code-02-useresumestore-ts.png)
 
 Mo ta: [P43] [code] Store tap trung cho resume.
 
@@ -1354,11 +1354,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P44 code 01](docs/screenshots/prompt-44/P44-code-01-templates-ts.png)
+![P44 code 01](screenshots/prompt-44/P44-code-01-templates-ts.png)
 
 Mo ta: [P44] [code] Danh sach metadata template.
 
-![P44 code 02](docs/screenshots/prompt-44/P44-code-02-templateselector-tsx.png)
+![P44 code 02](screenshots/prompt-44/P44-code-02-templateselector-tsx.png)
 
 Mo ta: [P44] [code] UI chon template.
 
@@ -1390,7 +1390,7 @@ Khong co anh o nhom nay.
 
 #### Anh env
 
-![P45 env 01](docs/screenshots/prompt-45/P45-env-01-npm-install-success.png)
+![P45 env 01](screenshots/prompt-45/P45-env-01-npm-install-success.png)
 
 Mo ta: [P45] [env] Da cai dependency thanh cong de mo duoc runtime React.
 
@@ -1402,25 +1402,25 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P45 code 01](docs/screenshots/prompt-45/P45-code-01-resumepreview-tsx.png)
+![P45 code 01](screenshots/prompt-45/P45-code-01-resumepreview-tsx.png)
 
 Mo ta: [P45] [code] Component preview tong.
 
-![P45 code 02](docs/screenshots/prompt-45/P45-code-02-elegantpreview-tsx.png)
+![P45 code 02](screenshots/prompt-45/P45-code-02-elegantpreview-tsx.png)
 
 Mo ta: [P45] [code] Template preview Elegant.
 
 
 #### Anh ui
 
-![P45 ui 01](docs/screenshots/prompt-45/P45-ui-01-react-live-preview.png)
+![P45 ui 01](screenshots/prompt-45/P45-ui-01-react-live-preview.png)
 
 Mo ta: [P45] [ui] UI React thuc te sau khi khoi phuc preview layer.
 
 
 #### Anh err
 
-![P45 err 01](docs/screenshots/prompt-45/P45-err-01-next-not-found.png)
+![P45 err 01](screenshots/prompt-45/P45-err-01-next-not-found.png)
 
 Mo ta: [P45] [err] Anh loi lich su truoc khi cai lai dependency; da duoc xu ly trong vong nay.
 
@@ -1447,7 +1447,7 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P46 code 01](docs/screenshots/prompt-46/P46-code-01-impressivepreview-tsx.png)
+![P46 code 01](screenshots/prompt-46/P46-code-01-impressivepreview-tsx.png)
 
 Mo ta: [P46] [code] Template Impressive preview.
 
@@ -1484,7 +1484,7 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P47 code 01](docs/screenshots/prompt-47/P47-code-01-expertpreview-tsx.png)
+![P47 code 01](screenshots/prompt-47/P47-code-01-expertpreview-tsx.png)
 
 Mo ta: [P47] [code] Template Expert preview.
 
@@ -1521,11 +1521,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P48 code 01](docs/screenshots/prompt-48/P48-code-01-personalinfoform-tsx.png)
+![P48 code 01](screenshots/prompt-48/P48-code-01-personalinfoform-tsx.png)
 
 Mo ta: [P48] [code] Form thong tin ca nhan.
 
-![P48 code 02](docs/screenshots/prompt-48/P48-code-02-skillsform-tsx.png)
+![P48 code 02](screenshots/prompt-48/P48-code-02-skillsform-tsx.png)
 
 Mo ta: [P48] [code] Form ky nang.
 
@@ -1562,11 +1562,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P49 code 01](docs/screenshots/prompt-49/P49-code-01-experienceform-tsx.png)
+![P49 code 01](screenshots/prompt-49/P49-code-01-experienceform-tsx.png)
 
 Mo ta: [P49] [code] Form kinh nghiem.
 
-![P49 code 02](docs/screenshots/prompt-49/P49-code-02-educationform-tsx.png)
+![P49 code 02](screenshots/prompt-49/P49-code-02-educationform-tsx.png)
 
 Mo ta: [P49] [code] Form hoc van.
 
@@ -1603,11 +1603,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P50 code 01](docs/screenshots/prompt-50/P50-code-01-languageform-tsx.png)
+![P50 code 01](screenshots/prompt-50/P50-code-01-languageform-tsx.png)
 
 Mo ta: [P50] [code] Form ngon ngu.
 
-![P50 code 02](docs/screenshots/prompt-50/P50-code-02-referenceform-tsx.png)
+![P50 code 02](screenshots/prompt-50/P50-code-02-referenceform-tsx.png)
 
 Mo ta: [P50] [code] Form reference.
 
@@ -1644,11 +1644,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P51 code 01](docs/screenshots/prompt-51/P51-code-01-photoupload-tsx.png)
+![P51 code 01](screenshots/prompt-51/P51-code-01-photoupload-tsx.png)
 
 Mo ta: [P51] [code] Upload anh cho CV.
 
-![P51 code 02](docs/screenshots/prompt-51/P51-code-02-resumeform-tsx.png)
+![P51 code 02](screenshots/prompt-51/P51-code-02-resumeform-tsx.png)
 
 Mo ta: [P51] [code] Form tong hop resume.
 
@@ -1685,11 +1685,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P52 code 01](docs/screenshots/prompt-52/P52-code-01-cvparser-ts.png)
+![P52 code 01](screenshots/prompt-52/P52-code-01-cvparser-ts.png)
 
 Mo ta: [P52] [code] Parser text CV thanh du lieu co cau truc.
 
-![P52 code 02](docs/screenshots/prompt-52/P52-code-02-smartimportmodal-tsx.png)
+![P52 code 02](screenshots/prompt-52/P52-code-02-smartimportmodal-tsx.png)
 
 Mo ta: [P52] [code] Modal Smart Import.
 
@@ -1731,11 +1731,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P53 code 01](docs/screenshots/prompt-53/P53-code-01-resumepdf-tsx.png)
+![P53 code 01](screenshots/prompt-53/P53-code-01-resumepdf-tsx.png)
 
 Mo ta: [P53] [code] Document PDF root su dung `@react-pdf/renderer`.
 
-![P53 code 02](docs/screenshots/prompt-53/P53-code-02-elegantpdf-tsx.png)
+![P53 code 02](screenshots/prompt-53/P53-code-02-elegantpdf-tsx.png)
 
 Mo ta: [P53] [code] Template PDF Elegant.
 
@@ -1772,11 +1772,11 @@ Khong co anh o nhom nay.
 
 #### Anh code
 
-![P54 code 01](docs/screenshots/prompt-54/P54-code-01-impressivepdf-tsx.png)
+![P54 code 01](screenshots/prompt-54/P54-code-01-impressivepdf-tsx.png)
 
 Mo ta: [P54] [code] Template PDF Impressive.
 
-![P54 code 02](docs/screenshots/prompt-54/P54-code-02-expertpdf-tsx.png)
+![P54 code 02](screenshots/prompt-54/P54-code-02-expertpdf-tsx.png)
 
 Mo ta: [P54] [code] Template PDF Expert.
 
@@ -1808,28 +1808,28 @@ Khong co anh o nhom nay.
 
 #### Anh tree
 
-![P55 tree 01](docs/screenshots/prompt-55/P55-tree-01-pdf-structure.png)
+![P55 tree 01](screenshots/prompt-55/P55-tree-01-pdf-structure.png)
 
 Mo ta: [P55] [tree] Cau truc thu muc PDF stage da day du.
 
 
 #### Anh code
 
-![P55 code 01](docs/screenshots/prompt-55/P55-code-01-downloadbutton-tsx.png)
+![P55 code 01](screenshots/prompt-55/P55-code-01-downloadbutton-tsx.png)
 
 Mo ta: [P55] [code] Nut Download PDF su dung `@react-pdf/renderer`.
 
 
 #### Anh ui
 
-![P55 ui 01](docs/screenshots/prompt-55/P55-ui-01-pdf-download-button-live.png)
+![P55 ui 01](screenshots/prompt-55/P55-ui-01-pdf-download-button-live.png)
 
 Mo ta: [P55] [ui] Nut `Download PDF` hien thi tren header o runtime React.
 
 
 #### Anh test
 
-![P55 test 01](docs/screenshots/prompt-55/P55-test-01-dev-server-ready.png)
+![P55 test 01](screenshots/prompt-55/P55-test-01-dev-server-ready.png)
 
 Mo ta: [P55] [test] Log dev server san sang va tra ve trang `GET / 200`.
 
