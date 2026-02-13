@@ -11,6 +11,12 @@ Moc giai doan trong bo journal:
 - Giai doan chuyen sang React: P36-P52.
 - Giai doan xuat PDF bang `@react-pdf/renderer`: P53-P60.
 
+Checkpoint quay lui theo giai doan:
+- `phase-dom-p25` / `checkpoint-dom-p25`
+- `phase-react-p52` / `checkpoint-react-p52`
+- `phase-pdf-p60` / `checkpoint-pdf-p60`
+- Chi tiet: `docs/checkpoints/phase-checkpoints.md`
+
 ## 1) Quy tac dat ten anh
 
 - Thu muc prompt: `docs/screenshots/prompt-XX/`
