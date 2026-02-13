@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useResumeStore } from '@/store/useResumeStore';
-import { Plus, Trash2, X, Pencil } from 'lucide-react';
+import { Plus, X, Pencil } from 'lucide-react';
 import { Skill } from '@/types/resume';
 
 const skillSchema = z.object({

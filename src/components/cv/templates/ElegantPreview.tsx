@@ -17,6 +17,7 @@ export const ElegantPreview = ({ data }: TemplateProps) => {
                 {/* Photo */}
                 <div className="flex-shrink-0">
                     {data.personalInfo.photo ? (
+                        // eslint-disable-next-line @next/next/no-img-element
                         <img
                             src={data.personalInfo.photo}
                             alt="Profile"

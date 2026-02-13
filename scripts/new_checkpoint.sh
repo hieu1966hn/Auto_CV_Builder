@@ -23,8 +23,8 @@ cat > "${OUT_FILE}" <<EOF
 - Step: ${STEP}
 - Core files touched: ${FILES}
 - Teaching reason: ${REASON}
-- Drift vs baseline: ${DRIFT}
-- Drift command: \`git diff --name-status <baseline-ref>...HEAD\`
+- Drift vs target architecture: ${DRIFT}
+- Drift command: \`git diff --name-status <target-ref>...HEAD\`
 - Notes:
 EOF
 

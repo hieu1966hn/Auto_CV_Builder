@@ -3,7 +3,8 @@
 import React, { useState } from 'react';
 import { useResumeStore } from '@/store/useResumeStore';
 import { parseCVFromText } from '@/lib/ai/cvParser';
-import { Sparkles, X, Loader2, FileText } from 'lucide-react';
+import { ResumeData } from '@/types/resume';
+import { Sparkles, X, Loader2 } from 'lucide-react';
 
 interface SmartImportModalProps {
     isOpen: boolean;
@@ -36,7 +37,22 @@ export const SmartImportModal = ({ isOpen, onClose }: SmartImportModalProps) => 
             if (parsedData.personalInfo?.summary) found.push('Tóm tắt');
             if (parsedData.skills && parsedData.skills.length > 0) found.push(`${parsedData.skills.length} Kỹ năng`);
 
-            importData(parsedData as any);
+            const importPayload: Partial<ResumeData> = {
+                personalInfo: {
+                    fullName: parsedData.personalInfo.fullName || '',
+                    email: parsedData.personalInfo.email || '',
+                    phone: parsedData.personalInfo.phone || '',
+                    address: parsedData.personalInfo.address || '',
+                    summary: parsedData.personalInfo.summary || '',
+                    linkedin: parsedData.personalInfo.linkedin,
+                    website: parsedData.personalInfo.website,
+                    photo: parsedData.personalInfo.photo,
+                },
+                skills: parsedData.skills,
+                languages: parsedData.languages,
+            };
+
+            importData(importPayload);
 
             if (found.length > 0) {
                 alert(`✅ Đã nhập thành công: ${found.join(', ')}`);

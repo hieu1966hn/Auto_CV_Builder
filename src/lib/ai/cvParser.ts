@@ -1,4 +1,4 @@
-import { ResumeData, Skill, Language, PersonalInfo } from '@/types/resume';
+import { Skill, Language, PersonalInfo } from '@/types/resume';
 
 interface ParseResult {
     personalInfo: Partial<PersonalInfo>;
@@ -18,7 +18,7 @@ export const parseCVFromText = (text: string): ParseResult => {
     const emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/;
     const emailMatch = text.match(emailRegex);
     if (emailMatch) {
-        result.personalInfo = { ...result.personalInfo, email: emailMatch[0] } as any;
+        result.personalInfo.email = emailMatch[0];
     }
 
     // 2. Extract Phone (Simple regex for 10-11 digits, potentially with spaces/dots)
@@ -26,7 +26,7 @@ export const parseCVFromText = (text: string): ParseResult => {
     const phoneMatch = text.match(phoneRegex);
     // Basic filter to ensure it looks like a phone number (at least 7 digits)
     if (phoneMatch && phoneMatch[0].replace(/\D/g, '').length >= 7) {
-        result.personalInfo = { ...result.personalInfo, phone: phoneMatch[0].trim() } as any;
+        result.personalInfo.phone = phoneMatch[0].trim();
     }
 
     // 3. Extract Links (LinkedIn / GitHub / Website)
@@ -35,12 +35,12 @@ export const parseCVFromText = (text: string): ParseResult => {
     if (urls) {
         urls.forEach(url => {
             if (url.includes('linkedin.com')) {
-                result.personalInfo = { ...result.personalInfo, linkedin: url } as any;
+                result.personalInfo.linkedin = url;
             } else if (!url.includes(result.personalInfo?.email || '')) {
                 // Assume other URL is personal website if not email domain
                 // This is a weak heuristic but works for simple cases
                 if (!result.personalInfo?.website) {
-                    result.personalInfo = { ...result.personalInfo, website: url } as any;
+                    result.personalInfo.website = url;
                 }
             }
         });
@@ -94,7 +94,6 @@ export const parseCVFromText = (text: string): ParseResult => {
     ];
 
     const foundSkills: Skill[] = [];
-    const lowerText = text.toLowerCase();
 
     commonSkills.forEach(skill => {
         // Escape special regex chars if any (not strictly needed for this list but good practice)

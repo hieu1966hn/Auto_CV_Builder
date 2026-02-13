@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import { useForm } from 'react-hook-form';
+import { useForm, useWatch } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useResumeStore } from '@/store/useResumeStore';
@@ -23,31 +23,27 @@ type PersonalInfoFormData = z.infer<typeof personalInfoSchema>;
 export const PersonalInfoForm = () => {
     const { resumeData, setPersonalInfo, dataVersion } = useResumeStore();
 
-    const { register, handleSubmit, watch, formState: { errors }, reset } = useForm<PersonalInfoFormData>({
+    const { register, control, formState: { errors }, reset } = useForm<PersonalInfoFormData>({
         resolver: zodResolver(personalInfoSchema),
         defaultValues: resumeData.personalInfo,
         mode: 'onChange' // Validate on change
     });
+    const watchedValues = useWatch({ control });
 
     // Watch all fields and update store with debounce (auto-save feel)
     useEffect(() => {
-        const subscription = watch((value) => {
-            // Use a timeout for debouncing store updates
-            const timeoutId = setTimeout(() => {
-                setPersonalInfo(value as Partial<PersonalInfo>);
-            }, 500); // 500ms debounce
-            return () => clearTimeout(timeoutId);
-        });
-        return () => subscription.unsubscribe();
-    }, [watch, setPersonalInfo]);
+        // Use a timeout for debouncing store updates while users are typing.
+        const timeoutId = setTimeout(() => {
+            setPersonalInfo(watchedValues as Partial<PersonalInfo>);
+        }, 500);
+        return () => clearTimeout(timeoutId);
+    }, [watchedValues, setPersonalInfo]);
 
-    // Sync from store to form if store changes externally (e.g. load/import)
-    // Only reset if specific visible fields are different to avoid loops with invisible fields like 'photo'
-    // Sync from store to form ONLY if dataVersion changes (Import or Reset)
-    // Sync from store to form ONLY if dataVersion changes (Import or Reset)
+    // Sync from store to form only on explicit external updates (Import/Reset).
     useEffect(() => {
-        reset(resumeData.personalInfo);
-    }, [dataVersion, reset]); // Removed resumeData.personalInfo to avoid loop
+        const latest = useResumeStore.getState().resumeData.personalInfo;
+        reset(latest);
+    }, [dataVersion, reset]);
 
     return (
         <div className="space-y-4">

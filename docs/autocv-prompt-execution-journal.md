@@ -34,7 +34,7 @@ Vi du:
 - `P12-ui-01-before-submit.png`
 - `P12-ui-02-after-submit.png`
 - `P12-err-01-email-invalid.png`
-- `P00-ui-01-current-state.png` (anh baseline truoc khi bat dau lo trinh prompt)
+- `P00-ui-01-current-state.png` (anh moc ban dau truoc khi bat dau lo trinh prompt)
 
 ## 2) So luong anh de xuat moi prompt
 
@@ -161,7 +161,7 @@ Mo ta: [PXX] [test] ...
 ## 5.1) Luu y cho prompt mang tinh khai niem
 
 - Neu prompt chua tao thay doi giao dien/chay code, uu tien ghi ro \"khong co thay doi UI\" thay vi tao anh phu khong can thiet.
-- Anh `ui` chi dung khi co thay doi giao dien that su, hoac danh dau ro la baseline.
+- Anh `ui` chi dung khi co thay doi giao dien that su, hoac danh dau ro la moc ban dau.
 
 Cap nhat quy trinh:
 - Anh render tu `docs/prompt-results/*.md` khong dung cho bo anh cuoi de viet sach.
@@ -178,7 +178,7 @@ Cap nhat quy trinh:
 
 #### Anh ui
 ![P01 ui 01](docs/screenshots/prompt-01/P01-ui-01-current-state.png)
-Mo ta: [P01] [ui] Anh baseline UI tai thoi diem bat dau lo trinh prompt.
+Mo ta: [P01] [ui] Anh moc ban dau UI tai thoi diem bat dau lo trinh prompt.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -214,7 +214,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P03 ui 01](docs/screenshots/prompt-03/P03-ui-01-current-state.png)
-Mo ta: [P03] [ui] UI baseline dung de doi chieu voi data flow duoc mo ta trong prompt.
+Mo ta: [P03] [ui] UI moc ban dau dung de doi chieu voi data flow duoc mo ta trong prompt.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -250,7 +250,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P05 ui 01](docs/screenshots/prompt-05/P05-ui-01-current-state.png)
-Mo ta: [P05] [ui] UI baseline cho giai doan xay backlog user stories.
+Mo ta: [P05] [ui] UI moc ban dau cho giai doan xay backlog user stories.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -270,7 +270,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P06 ui 01](docs/screenshots/prompt-06/P06-ui-01-current-state.png)
-Mo ta: [P06] [ui] UI baseline cho bo checklist test thu cong.
+Mo ta: [P06] [ui] UI moc ban dau cho bo checklist test thu cong.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -288,7 +288,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P07 ui 01](docs/screenshots/prompt-07/P07-ui-01-current-state.png)
-Mo ta: [P07] [ui] UI baseline dung cho bai hoc nhan dien loi thuong gap.
+Mo ta: [P07] [ui] UI moc ban dau dung cho bai hoc nhan dien loi thuong gap.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -306,7 +306,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P08 ui 01](docs/screenshots/prompt-08/P08-ui-01-current-state.png)
-Mo ta: [P08] [ui] UI baseline de doi chieu voi DoD da xac lap.
+Mo ta: [P08] [ui] UI moc ban dau de doi chieu voi DoD da xac lap.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -324,7 +324,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P09 ui 01](docs/screenshots/prompt-09/P09-ui-01-current-state.png)
-Mo ta: [P09] [ui] UI baseline de map tung test case voi man hinh that.
+Mo ta: [P09] [ui] UI moc ban dau de map tung test case voi man hinh that.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -342,7 +342,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P10 ui 01](docs/screenshots/prompt-10/P10-ui-01-current-state.png)
-Mo ta: [P10] [ui] UI baseline cho bo regression test xuyen suot cac vong lap.
+Mo ta: [P10] [ui] UI moc ban dau cho bo regression test xuyen suot cac vong lap.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -362,7 +362,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P11 ui 01](docs/screenshots/prompt-11/P11-ui-01-current-state.png)
-Mo ta: [P11] [ui] UI baseline dung de gan vi du cho cac khai niem co ban.
+Mo ta: [P11] [ui] UI moc ban dau dung de gan vi du cho cac khai niem co ban.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -380,7 +380,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P12 ui 01](docs/screenshots/prompt-12/P12-ui-01-current-state.png)
-Mo ta: [P12] [ui] UI baseline de doi chieu voi file mapping khi doc code.
+Mo ta: [P12] [ui] UI moc ban dau de doi chieu voi file mapping khi doc code.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -398,7 +398,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P13 ui 01](docs/screenshots/prompt-13/P13-ui-01-current-state.png)
-Mo ta: [P13] [ui] UI baseline de hoc vien map cau hoi vao man hinh that.
+Mo ta: [P13] [ui] UI moc ban dau de hoc vien map cau hoi vao man hinh that.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -416,7 +416,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P14 ui 01](docs/screenshots/prompt-14/P14-ui-01-current-state.png)
-Mo ta: [P14] [ui] UI baseline de mo ta hien tuong preview khong cap nhat.
+Mo ta: [P14] [ui] UI moc ban dau de mo ta hien tuong preview khong cap nhat.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -434,7 +434,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P15 ui 01](docs/screenshots/prompt-15/P15-ui-01-current-state.png)
-Mo ta: [P15] [ui] UI baseline cho bai hoc ghi chu doc code.
+Mo ta: [P15] [ui] UI moc ban dau cho bai hoc ghi chu doc code.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -454,7 +454,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P16 ui 01](docs/screenshots/prompt-16/P16-ui-01-current-state.png)
-Mo ta: [P16] [ui] UI baseline de dinh huong roadmap tinh nang.
+Mo ta: [P16] [ui] UI moc ban dau de dinh huong roadmap tinh nang.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -472,7 +472,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P17 ui 01](docs/screenshots/prompt-17/P17-ui-01-current-state.png)
-Mo ta: [P17] [ui] UI baseline de map cac truong cua form toi thieu.
+Mo ta: [P17] [ui] UI moc ban dau de map cac truong cua form toi thieu.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -490,7 +490,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P18 ui 01](docs/screenshots/prompt-18/P18-ui-01-current-state.png)
-Mo ta: [P18] [ui] UI baseline cho bai hoc bo sung validation.
+Mo ta: [P18] [ui] UI moc ban dau cho bai hoc bo sung validation.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -508,7 +508,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P19 ui 01](docs/screenshots/prompt-19/P19-ui-01-current-state.png)
-Mo ta: [P19] [ui] UI baseline de doi chieu mapping data binding.
+Mo ta: [P19] [ui] UI moc ban dau de doi chieu mapping data binding.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -526,7 +526,7 @@ Khong phat sinh loi.
 
 #### Anh ui
 ![P20 ui 01](docs/screenshots/prompt-20/P20-ui-01-current-state.png)
-Mo ta: [P20] [ui] UI baseline cho bai hoc mo rong sang xuat ban.
+Mo ta: [P20] [ui] UI moc ban dau cho bai hoc mo rong sang xuat ban.
 
 #### Anh code
 Khong co thay doi code o prompt nay.
@@ -1096,9 +1096,9 @@ Khong co anh o nhom nay.
 
 - File thay doi: `package-lock.json`, `docs/prompt-results/P38.md`
 
-- Lenh run/test: thu `npm install` (that bai do khong truy cap internet).
+- Lenh run/test: vong dau thu `npm install` gap loi moi truong; da xu ly thanh cong bang cache local o P45.
 
-- Ket qua: Lock file da khoi phuc, runtime install se chay lai khi co mang.
+- Ket qua: Lock file da khoi phuc, va dependency da duoc cai thanh cong sau khi doi cache local.
 
 - Drift danh gia: large.
 

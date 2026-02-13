@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Text, View, Document, StyleSheet, Font } from '@react-pdf/renderer';
+import { Document, StyleSheet, Font } from '@react-pdf/renderer';
 import { ResumeData, CVTemplateId } from '@/types/resume';
 import { ElegantPDF } from './templates/ElegantPDF';
 import { ImpressivePDF } from './templates/ImpressivePDF';

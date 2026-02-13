@@ -8,12 +8,7 @@ import { Download, Loader2 } from 'lucide-react';
 
 export const DownloadButton = () => {
     const { resumeData, selectedTemplate } = useResumeStore();
-    const [isClient, setIsClient] = useState(false);
     const [debouncedData, setDebouncedData] = useState(resumeData);
-
-    useEffect(() => {
-        setIsClient(true);
-    }, []);
 
     // Debounce data updates to prevent PDF generator from lagging/crashing during typing
     useEffect(() => {
@@ -23,6 +18,7 @@ export const DownloadButton = () => {
         return () => clearTimeout(timer);
     }, [resumeData]);
 
+    const isClient = typeof window !== 'undefined';
     if (!isClient) return null;
 
     return (

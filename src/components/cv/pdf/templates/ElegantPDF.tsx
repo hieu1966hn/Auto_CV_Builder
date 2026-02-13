@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import { Page, Text, View, Image, StyleSheet } from '@react-pdf/renderer';
 import { ResumeData } from '@/types/resume';

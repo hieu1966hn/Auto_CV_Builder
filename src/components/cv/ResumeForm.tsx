@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import { useResumeStore } from '@/store/useResumeStore';
 import { PersonalInfoForm } from './forms/PersonalInfoForm';
 import { EducationForm } from './forms/EducationForm';
 import { ExperienceForm } from './forms/ExperienceForm';

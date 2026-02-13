@@ -9,7 +9,7 @@ Minimum fields (required):
 - Step
 - Core files touched
 - Teaching reason
-- Drift vs baseline (`small` / `medium` / `large`)
+- Drift vs target architecture (`small` / `medium` / `large`)
 
 Recommended command flow:
 1. Run drift check: `bash scripts/check_drift.sh`

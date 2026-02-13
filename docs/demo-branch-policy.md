@@ -1,7 +1,7 @@
 # Demo Branch Alignment Policy
 
 ## 1) Goal and Priority
-- Long-term goal: keep this workspace close to the project baseline reference.
+- Long-term goal: keep this workspace close to the project target architecture.
 - Short-term goal: keep `cv-builder` useful for teaching the Vibe Coding loop:
   `Prompt -> Code -> Run -> Test -> Bug -> Read code -> Fix -> Re-test`.
 - Conflict rule: if teaching flow conflicts with immediate alignment, prioritize teaching flow.
@@ -14,7 +14,7 @@
   - current step in the loop
   - core files touched
   - teaching reason
-  - drift level vs baseline (`small` / `medium` / `large`)
+  - drift level vs target architecture (`small` / `medium` / `large`)
 - If drift grows across multiple rounds, add a reconciliation note immediately.
 
 ## 3) Process Interface
@@ -46,7 +46,7 @@ Core-structure paths:
 - During each round:
   - review `git diff --name-status origin/HEAD...HEAD`
   - separate lesson-only changes from durable product changes
-  - apply the smallest correction needed to stay near baseline
+  - apply the smallest correction needed to stay near target architecture
 - If a requested lesson conflicts with alignment target, confirm with user before expanding scope.
 
 ## 6) Locked Defaults

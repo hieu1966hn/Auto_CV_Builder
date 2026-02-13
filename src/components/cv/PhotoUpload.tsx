@@ -29,6 +29,7 @@ export const PhotoUpload = () => {
         <div className="flex items-center gap-4 mb-4">
             <div className="relative group">
                 {resumeData.personalInfo.photo ? (
+                    // eslint-disable-next-line @next/next/no-img-element
                     <img
                         src={resumeData.personalInfo.photo}
                         alt="Profile"

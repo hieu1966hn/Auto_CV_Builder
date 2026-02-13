@@ -3,6 +3,6 @@
 - Step: <Prompt|Code|Run|Test|Bug|Read code|Fix|Re-test>
 - Core files touched: <file1, file2, ...>
 - Teaching reason: <what this round teaches>
-- Drift vs baseline: <small|medium|large>
-- Drift command: `git diff --name-status <baseline-ref>...HEAD`
+- Drift vs target architecture: <small|medium|large>
+- Drift command: `git diff --name-status <target-ref>...HEAD`
 - Notes:

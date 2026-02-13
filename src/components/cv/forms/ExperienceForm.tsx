@@ -6,7 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useResumeStore } from '@/store/useResumeStore';
 import { Experience } from '@/types/resume';
-import { Plus, Trash2, Briefcase, Pencil } from 'lucide-react';
+import { Plus, Trash2, Pencil } from 'lucide-react';
 
 const experienceSchema = z.object({
     company: z.string().min(1, 'Company is required'),

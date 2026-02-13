@@ -18,6 +18,7 @@ export const ImpressivePreview = ({ data }: TemplateProps) => {
                 {/* Photo */}
                 <div className="flex justify-center mb-6">
                     {data.personalInfo.photo ? (
+                        // eslint-disable-next-line @next/next/no-img-element
                         <img
                             src={data.personalInfo.photo}
                             alt="Profile"

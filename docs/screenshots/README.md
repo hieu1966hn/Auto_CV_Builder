@@ -22,7 +22,7 @@ Required rule:
 - `P21-code-03-scripts-validation-flow.png`
 
 Rule for conceptual prompts (no UI/code runtime change):
-- Keep `ui` optional; do not duplicate the same UI image across many prompts unless explicitly marked as baseline only.
+- Keep `ui` optional; do not duplicate the same UI image across many prompts unless explicitly marked as initial checkpoint only.
 - Do not capture final book images from raw `docs/prompt-results/*.md` previews.
 
 Rule for React/PDF runtime prompts:

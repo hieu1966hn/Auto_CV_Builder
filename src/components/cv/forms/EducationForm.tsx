@@ -6,7 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useResumeStore } from '@/store/useResumeStore';
 import { Education } from '@/types/resume';
-import { Plus, Trash2, GraduationCap, Pencil } from 'lucide-react';
+import { Plus, Trash2, Pencil } from 'lucide-react';
 
 const educationSchema = z.object({
     school: z.string().min(1, 'School is required'),
