@@ -16,10 +16,18 @@ const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const edgeDataButton = document.getElementById('edge-data-btn');
 const resetButton = document.getElementById('reset-btn');
 
+// Convert textarea blocks into clean list items for preview sections.
 const parseLines = (value) =>
   value
     .split('\n')
     .map((line) => line.trim())
+    .filter(Boolean);
+
+// Keep all skill parsing in one place so preview logic stays readable.
+const parseSkills = (value) =>
+  value
+    .split(',')
+    .map((skill) => skill.trim())
     .filter(Boolean);
 
 const updateList = (element, items) => {
@@ -60,6 +68,7 @@ const collectValidationIssues = (data) => {
   return issues;
 };
 
+// Render both validation feedback panel and field highlights in one pass.
 const renderValidation = (issues) => {
   form.querySelectorAll('input, textarea').forEach((field) => field.classList.remove('invalid'));
   if (!validationSummary || !statusBadge) {
@@ -86,6 +95,7 @@ const renderValidation = (issues) => {
   });
 };
 
+// Main DOM pipeline: read FormData -> normalize -> paint preview -> validate.
 const refreshPreview = () => {
   const data = new FormData(form);
   const skillsValue = data.get('skills')?.trim() || '';
@@ -96,7 +106,7 @@ const refreshPreview = () => {
   preview.email.textContent = data.get('email') || 'Email';
   preview.phone.textContent = data.get('phone') || 'Điện thoại';
 
-  const skillsArray = skillsValue ? skillsValue.split(',').map((skill) => skill.trim()).filter(Boolean) : [];
+  const skillsArray = skillsValue ? parseSkills(skillsValue) : [];
   updateList(preview.skills, skillsArray.length ? skillsArray : ['Chưa thêm kỹ năng']);
 
   const experienceLines = parseLines(data.get('experience') || '');

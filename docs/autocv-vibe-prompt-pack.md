@@ -3,6 +3,12 @@
 Muc tieu: dung bo prompt nay de dan hoc vien di theo vong lap:
 `Prompt -> Code -> Run -> Test -> Bug -> Read code -> Fix -> Test lai`.
 
+## Chuoi giai doan can lam noi bat
+
+- **Giai doan 1 - DOM thuan (`FormData + eventListener`)**: tap trung manh o P21-P35.
+- **Giai doan 2 - chuyen sang React**: tap trung manh o P36-P52.
+- **Giai doan 3 - xuat PDF bang `@react-pdf/renderer`**: tap trung manh o P53-P55, tong ket o P56-P60.
+
 ## 0) Quy tac chup anh cho moi prompt
 
 Quy tac dat ten file:
