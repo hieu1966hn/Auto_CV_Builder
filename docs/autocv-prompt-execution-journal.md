@@ -664,8 +664,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P26 ui 01](screenshots/prompt-26/P26-ui-01-dom-phase-replay.png)
 
+Mo ta: [P26] [ui] UI replay giai doan DOM sau prompt P26; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -699,8 +700,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P27 ui 01](screenshots/prompt-27/P27-ui-01-dom-phase-replay.png)
 
+Mo ta: [P27] [ui] UI replay giai doan DOM sau prompt P27; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -736,8 +738,9 @@ Mo ta: [P28] [code] `scripts/scripts.js` duoc gan comment mo ta luong xu ly.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P28 ui 01](screenshots/prompt-28/P28-ui-01-dom-phase-replay.png)
 
+Mo ta: [P28] [ui] UI replay giai doan DOM sau prompt P28; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -773,8 +776,9 @@ Mo ta: [P29] [code] Refactor helper parse skill de ham chinh de doc hon.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P29 ui 01](screenshots/prompt-29/P29-ui-01-dom-phase-replay.png)
 
+Mo ta: [P29] [ui] UI replay giai doan DOM sau prompt P29; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -845,8 +849,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P31 ui 01](screenshots/prompt-31/P31-ui-01-dom-phase-replay.png)
 
+Mo ta: [P31] [ui] UI replay giai doan DOM sau prompt P31; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -880,8 +885,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P32 ui 01](screenshots/prompt-32/P32-ui-01-dom-phase-replay.png)
 
+Mo ta: [P32] [ui] UI replay giai doan DOM sau prompt P32; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -915,8 +921,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P33 ui 01](screenshots/prompt-33/P33-ui-01-dom-phase-replay.png)
 
+Mo ta: [P33] [ui] UI replay giai doan DOM sau prompt P33; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -950,8 +957,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P34 ui 01](screenshots/prompt-34/P34-ui-01-dom-phase-replay.png)
 
+Mo ta: [P34] [ui] UI replay giai doan DOM sau prompt P34; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -985,8 +993,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P35 ui 01](screenshots/prompt-35/P35-ui-01-dom-phase-replay.png)
 
+Mo ta: [P35] [ui] UI replay giai doan DOM sau prompt P35; ghi nhan trang thai giao dien tai vong nay.
 
 #### Anh err
 
@@ -1035,8 +1044,9 @@ Mo ta: [P36] [code] Cau hinh TypeScript.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P36 ui 01](screenshots/prompt-36/P36-ui-01-react-phase-replay.png)
 
+Mo ta: [P36] [ui] UI replay giai doan React sau prompt P36; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1080,8 +1090,9 @@ Mo ta: [P37] [code] README runtime huong dan local.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P37 ui 01](screenshots/prompt-37/P37-ui-01-react-phase-replay.png)
 
+Mo ta: [P37] [ui] UI replay giai doan React sau prompt P37; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1117,8 +1128,9 @@ Mo ta: [P38] [code] Dong bo lock file dependency.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P38 ui 01](screenshots/prompt-38/P38-ui-01-react-phase-replay.png)
 
+Mo ta: [P38] [ui] UI replay giai doan React sau prompt P38; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1158,8 +1170,9 @@ Mo ta: [P39] [code] Asset globe.svg.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P39 ui 01](screenshots/prompt-39/P39-ui-01-react-phase-replay.png)
 
+Mo ta: [P39] [ui] UI replay giai doan React sau prompt P39; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1203,8 +1216,9 @@ Mo ta: [P40] [code] Asset window.svg.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P40 ui 01](screenshots/prompt-40/P40-ui-01-react-phase-replay.png)
 
+Mo ta: [P40] [ui] UI replay giai doan React sau prompt P40; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1244,8 +1258,9 @@ Mo ta: [P41] [code] App layout cap goc.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P41 ui 01](screenshots/prompt-41/P41-ui-01-react-phase-replay.png)
 
+Mo ta: [P41] [ui] UI replay giai doan React sau prompt P41; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1283,8 +1298,9 @@ Mo ta: [P42] [code] Trang chu React voi editor + preview.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P42 ui 01](screenshots/prompt-42/P42-ui-01-react-phase-replay.png)
 
+Mo ta: [P42] [ui] UI replay giai doan React sau prompt P42; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1324,8 +1340,9 @@ Mo ta: [P43] [code] Store tap trung cho resume.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P43 ui 01](screenshots/prompt-43/P43-ui-01-react-phase-replay.png)
 
+Mo ta: [P43] [ui] UI replay giai doan React sau prompt P43; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1365,8 +1382,9 @@ Mo ta: [P44] [code] UI chon template.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P44 ui 01](screenshots/prompt-44/P44-ui-01-react-phase-replay.png)
 
+Mo ta: [P44] [ui] UI replay giai doan React sau prompt P44; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1454,8 +1472,9 @@ Mo ta: [P46] [code] Template Impressive preview.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P46 ui 01](screenshots/prompt-46/P46-ui-01-react-phase-replay.png)
 
+Mo ta: [P46] [ui] UI replay giai doan React sau prompt P46; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1491,8 +1510,9 @@ Mo ta: [P47] [code] Template Expert preview.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P47 ui 01](screenshots/prompt-47/P47-ui-01-react-phase-replay.png)
 
+Mo ta: [P47] [ui] UI replay giai doan React sau prompt P47; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1532,8 +1552,9 @@ Mo ta: [P48] [code] Form ky nang.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P48 ui 01](screenshots/prompt-48/P48-ui-01-react-phase-replay.png)
 
+Mo ta: [P48] [ui] UI replay giai doan React sau prompt P48; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1573,8 +1594,9 @@ Mo ta: [P49] [code] Form hoc van.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P49 ui 01](screenshots/prompt-49/P49-ui-01-react-phase-replay.png)
 
+Mo ta: [P49] [ui] UI replay giai doan React sau prompt P49; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1614,8 +1636,9 @@ Mo ta: [P50] [code] Form reference.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P50 ui 01](screenshots/prompt-50/P50-ui-01-react-phase-replay.png)
 
+Mo ta: [P50] [ui] UI replay giai doan React sau prompt P50; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1655,8 +1678,9 @@ Mo ta: [P51] [code] Form tong hop resume.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P51 ui 01](screenshots/prompt-51/P51-ui-01-react-phase-replay.png)
 
+Mo ta: [P51] [ui] UI replay giai doan React sau prompt P51; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1696,8 +1720,9 @@ Mo ta: [P52] [code] Modal Smart Import.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P52 ui 01](screenshots/prompt-52/P52-ui-01-react-phase-replay.png)
 
+Mo ta: [P52] [ui] UI replay giai doan React sau prompt P52; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1742,8 +1767,9 @@ Mo ta: [P53] [code] Template PDF Elegant.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P53 ui 01](screenshots/prompt-53/P53-ui-01-react-phase-replay.png)
 
+Mo ta: [P53] [ui] UI replay giai doan React sau prompt P53; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1783,8 +1809,9 @@ Mo ta: [P54] [code] Template PDF Expert.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P54 ui 01](screenshots/prompt-54/P54-ui-01-react-phase-replay.png)
 
+Mo ta: [P54] [ui] UI replay giai doan React sau prompt P54; doi chieu giao dien theo tien trinh migration.
 
 #### Anh err
 
@@ -1866,8 +1893,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P56 ui 01](screenshots/prompt-56/P56-ui-01-pdf-phase-replay.png)
 
+Mo ta: [P56] [ui] UI replay giai doan PDF sau prompt P56; giao dien da o moc co nut tai PDF.
 
 #### Anh err
 
@@ -1901,8 +1929,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P57 ui 01](screenshots/prompt-57/P57-ui-01-pdf-phase-replay.png)
 
+Mo ta: [P57] [ui] UI replay giai doan PDF sau prompt P57; giao dien da o moc co nut tai PDF.
 
 #### Anh err
 
@@ -1936,8 +1965,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P58 ui 01](screenshots/prompt-58/P58-ui-01-pdf-phase-replay.png)
 
+Mo ta: [P58] [ui] UI replay giai doan PDF sau prompt P58; giao dien da o moc co nut tai PDF.
 
 #### Anh err
 
@@ -1971,8 +2001,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P59 ui 01](screenshots/prompt-59/P59-ui-01-pdf-phase-replay.png)
 
+Mo ta: [P59] [ui] UI replay giai doan PDF sau prompt P59; giao dien da o moc co nut tai PDF.
 
 #### Anh err
 
@@ -2006,8 +2037,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P60 ui 01](screenshots/prompt-60/P60-ui-01-pdf-phase-replay.png)
 
+Mo ta: [P60] [ui] UI replay giai doan PDF sau prompt P60; giao dien da o moc co nut tai PDF.
 
 #### Anh err
 
