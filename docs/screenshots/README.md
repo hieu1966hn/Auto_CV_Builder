@@ -25,6 +25,10 @@ Rule for conceptual prompts (no UI/code runtime change):
 - Keep `ui` optional; do not duplicate the same UI image across many prompts unless explicitly marked as baseline only.
 - Do not capture final book images from raw `docs/prompt-results/*.md` previews.
 
+Rule for React/PDF runtime prompts:
+- Prefer real runtime UI screenshots from `npm run dev` (e.g. P45, P55).
+- If a browser capture is blank/dark, recapture after waiting for `GET / 200` in dev log.
+
 Examples:
 - `P00-ui-01-current-state.png`
 - `P03-code-01-initial-form.png`

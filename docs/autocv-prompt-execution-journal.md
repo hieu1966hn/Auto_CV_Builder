@@ -1375,11 +1375,18 @@ Khong co anh o nhom nay.
 
 - File thay doi: `src/components/cv/ResumePreview.tsx`, `src/components/cv/templates/ElegantPreview.tsx`, `docs/prompt-results/P45.md`
 
-- Lenh run/test: `npm run dev` (that bai: `next: command not found`).
+- Lenh run/test: `npm_config_cache=$PWD/.npm-cache npm install --no-audit --no-fund` -> `npm run dev`.
 
-- Ket qua: Code preview da khoi phuc; runtime can bo dependency day du.
+- Ket qua: Code preview da khoi phuc; runtime React da chay va chup duoc UI that.
 
 - Drift danh gia: large.
+
+
+#### Anh env
+
+![P45 env 01](docs/screenshots/prompt-45/P45-env-01-npm-install-success.png)
+
+Mo ta: [P45] [env] Da cai dependency thanh cong de mo duoc runtime React.
 
 
 #### Anh tree
@@ -1400,14 +1407,16 @@ Mo ta: [P45] [code] Template preview Elegant.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P45 ui 01](docs/screenshots/prompt-45/P45-ui-01-react-live-preview.png)
+
+Mo ta: [P45] [ui] UI React thuc te sau khi khoi phuc preview layer.
 
 
 #### Anh err
 
 ![P45 err 01](docs/screenshots/prompt-45/P45-err-01-next-not-found.png)
 
-Mo ta: [P45] [err] Loi runtime do thieu `next` binary trong moi truong hien tai.
+Mo ta: [P45] [err] Anh loi lich su truoc khi cai lai dependency; da duoc xu ly trong vong nay.
 
 
 ### Prompt P46
@@ -1784,9 +1793,9 @@ Khong co anh o nhom nay.
 
 - File thay doi: `src/components/cv/DownloadButton.tsx`, `docs/prompt-results/P55.md`
 
-- Lenh run/test: N/A (source sync).
+- Lenh run/test: `npm run dev` + quan sat nut `Download PDF` tren header.
 
-- Ket qua: Da co `PDFDownloadLink` cho chuc nang tai file PDF.
+- Ket qua: Da co `PDFDownloadLink` va UI hien thi nut `Download PDF` tren runtime that.
 
 - Drift danh gia: large.
 
@@ -1807,7 +1816,16 @@ Mo ta: [P55] [code] Nut Download PDF su dung `@react-pdf/renderer`.
 
 #### Anh ui
 
-Khong co anh o nhom nay.
+![P55 ui 01](docs/screenshots/prompt-55/P55-ui-01-pdf-download-button-live.png)
+
+Mo ta: [P55] [ui] Nut `Download PDF` hien thi tren header o runtime React.
+
+
+#### Anh test
+
+![P55 test 01](docs/screenshots/prompt-55/P55-test-01-dev-server-ready.png)
+
+Mo ta: [P55] [test] Log dev server san sang va tra ve trang `GET / 200`.
 
 
 #### Anh err
