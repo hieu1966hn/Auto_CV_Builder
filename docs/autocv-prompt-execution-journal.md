@@ -145,6 +145,7 @@ Mo ta: [PXX] [test] ...
 3. Chup anh theo nhom phu hop (`env/tree/code/ui/err/test`).
 4. Dan block chi tiet Prompt PXX vao tai lieu nay, dat anh va mo ta ngay ben duoi anh.
 5. Cap nhat trang thai Prompt PXX trong bang theo doi (TODO -> DONE).
+6. Neu prompt co doi code, bat buoc co anh `code` theo tung file thay doi.
 
 ## 5.1) Luu y cho prompt mang tinh khai niem
 
@@ -536,6 +537,14 @@ Khong phat sinh loi.
 ![P21 ui 01](docs/screenshots/prompt-21/P21-ui-01-validation-layout.png)
 Mo ta: [P21] [ui] Giao dien co them khoi validation va badge trang thai.
 
+#### Anh code
+![P21 code 01](docs/screenshots/prompt-21/P21-code-01-index-validation-block.png)
+Mo ta: [P21] [code] `index.html` them `validation-summary` va status badge.
+![P21 code 02](docs/screenshots/prompt-21/P21-code-02-styles-validation-status.png)
+Mo ta: [P21] [code] `styles.css` them style validation + status classes.
+![P21 code 03](docs/screenshots/prompt-21/P21-code-03-scripts-validation-flow.png)
+Mo ta: [P21] [code] `scripts/scripts.js` them luong collect/render validation.
+
 ### Prompt P22
 - Muc tieu: Debug loi he thong khong cap nhat preview/validation.
 - Prompt da dung: Prompt #22 trong `docs/autocv-vibe-prompt-pack.md`.
@@ -547,6 +556,10 @@ Mo ta: [P21] [ui] Giao dien co them khoi validation va badge trang thai.
 #### Anh ui
 ![P22 ui 01](docs/screenshots/prompt-22/P22-ui-01-script-fix-active.png)
 Mo ta: [P22] [ui] Sau fix script path, hanh vi validation duoc kich hoat.
+
+#### Anh code
+![P22 code 01](docs/screenshots/prompt-22/P22-code-01-index-script-path-fix.png)
+Mo ta: [P22] [code] `index.html` sua duong dan script de kich hoat JS runtime.
 
 ### Prompt P23
 - Muc tieu: Bo sung bo du lieu test bien va thao tac nhanh.
@@ -560,6 +573,14 @@ Mo ta: [P22] [ui] Sau fix script path, hanh vi validation duoc kich hoat.
 ![P23 ui 01](docs/screenshots/prompt-23/P23-ui-01-edge-tools.png)
 Mo ta: [P23] [ui] Form co them nut `Tai du lieu bien` va `Xoa nhanh`.
 
+#### Anh code
+![P23 code 01](docs/screenshots/prompt-23/P23-code-01-index-action-row.png)
+Mo ta: [P23] [code] `index.html` them action-row voi 3 nut thao tac.
+![P23 code 02](docs/screenshots/prompt-23/P23-code-02-styles-action-buttons.png)
+Mo ta: [P23] [code] `styles.css` them style cho `action-row`, `secondary-btn`, `ghost-btn`.
+![P23 code 03](docs/screenshots/prompt-23/P23-code-03-scripts-edge-reset.png)
+Mo ta: [P23] [code] `scripts/scripts.js` them ham nap du lieu bien va reset nhanh.
+
 ### Prompt P24
 - Muc tieu: Them regression checklist de test lai sau moi lan sua.
 - Prompt da dung: Prompt #24 trong `docs/autocv-vibe-prompt-pack.md`.
@@ -572,6 +593,12 @@ Mo ta: [P23] [ui] Form co them nut `Tai du lieu bien` va `Xoa nhanh`.
 ![P24 ui 01](docs/screenshots/prompt-24/P24-ui-01-regression-checklist.png)
 Mo ta: [P24] [ui] Bo sung panel checklist regression phuc vu test lap lai.
 
+#### Anh code
+![P24 code 01](docs/screenshots/prompt-24/P24-code-01-index-regression-panel.png)
+Mo ta: [P24] [code] `index.html` them panel regression checklist trong form.
+![P24 code 02](docs/screenshots/prompt-24/P24-code-02-styles-regression-panel.png)
+Mo ta: [P24] [code] `styles.css` them style panel regression.
+
 ### Prompt P25
 - Muc tieu: Chot mau bao cao fix bug theo 5 muc bat buoc.
 - Prompt da dung: Prompt #25 trong `docs/autocv-vibe-prompt-pack.md`.
@@ -583,6 +610,12 @@ Mo ta: [P24] [ui] Bo sung panel checklist regression phuc vu test lap lai.
 #### Anh ui
 ![P25 ui 01](docs/screenshots/prompt-25/P25-ui-01-fix-report-template.png)
 Mo ta: [P25] [ui] Preview co them panel mau bao cao fix bug 5 muc bat buoc.
+
+#### Anh code
+![P25 code 01](docs/screenshots/prompt-25/P25-code-01-index-report-panel.png)
+Mo ta: [P25] [code] `index.html` them panel mau bao cao fix bug.
+![P25 code 02](docs/screenshots/prompt-25/P25-code-02-styles-report-panel.png)
+Mo ta: [P25] [code] `styles.css` them style cho report panel.
 
 Ghi chu chat luong anh:
 - Tu P21 tro di, anh tap trung vao UI/runtime thay doi that su.

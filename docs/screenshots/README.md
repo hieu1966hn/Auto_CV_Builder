@@ -14,6 +14,13 @@ Groups:
 - `err`: errors
 - `test`: test evidence
 
+Required rule:
+- If a prompt changes code, capture at least one `code` image for each changed file.
+- Use names like:
+- `P21-code-01-index-validation-block.png`
+- `P21-code-02-styles-validation-status.png`
+- `P21-code-03-scripts-validation-flow.png`
+
 Rule for conceptual prompts (no UI/code runtime change):
 - Keep `ui` optional; do not duplicate the same UI image across many prompts unless explicitly marked as baseline only.
 - Do not capture final book images from raw `docs/prompt-results/*.md` previews.
