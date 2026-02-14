@@ -129,7 +129,7 @@ Sao chep block nay cho tung prompt va thay `PXX` thanh so prompt thuc te.
 - File thay doi:
 - Lenh run/test:
 - Ket qua:
-- Drift danh gia: <small|medium|large>
+- Muc do thay doi vong nay: <small|medium|large>
 
 #### Anh env (neu co)
 ![PXX env 01](screenshots/prompt-XX/PXX-env-01-example.png)
@@ -181,7 +181,7 @@ Cap nhat quy trinh:
 - File thay doi: `docs/prompt-results/P01.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging, chua code).
 - Ket qua: Da co mo ta muc tieu, input/output, va cach hieu don gian.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -198,7 +198,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P02.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging, chua code).
 - Ket qua: Da co cau truc 5 khoi de hoc vien hieu pham vi he thong.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -215,7 +215,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P03.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging, chua code).
 - Ket qua: Da co luong chinh input -> state -> preview, kem luong export va bao mat.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -232,7 +232,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P04.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging, chua code).
 - Ket qua: Da co roadmap MVP -> should-have -> next-stage de dat huong trien khai.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -249,7 +249,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P05.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging, chua code).
 - Ket qua: Da co 10 user stories de dung cho backlog va bai giang.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -268,7 +268,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P06.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging/testing tai lieu).
 - Ket qua: Da co checklist test buoc-qua-buoc cho nguoi moi.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -285,7 +285,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P07.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging/testing tai lieu).
 - Ket qua: Da co danh sach 15 loi thuong gap lam khung debug.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -302,7 +302,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P08.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging/testing tai lieu).
 - Ket qua: Da co bo tieu chi pass/fail cho MVP AutoCV.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -319,7 +319,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P09.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging/testing tai lieu).
 - Ket qua: Da co bang test case co ID, buoc test, ket qua mong doi, uu tien.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -336,7 +336,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P10.md` (khong doi source code web).
 - Lenh run/test: N/A (vong engaging/testing tai lieu).
 - Ket qua: Da co top 5 regression test co the dung lap lai moi vong sua bug.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -355,7 +355,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P11.md` (khong doi source code web).
 - Lenh run/test: N/A (vong code-reading tai lieu).
 - Ket qua: Da co khung khai niem Input/State/Binding/Render/Event/Validate.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -372,7 +372,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P12.md` (khong doi source code web).
 - Lenh run/test: N/A (vong code-reading tai lieu).
 - Ket qua: Da co thu tu doc `index.html` -> `scripts/scripts.js` -> `styles.css`.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -389,7 +389,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P13.md` (khong doi source code web).
 - Lenh run/test: N/A (vong code-reading tai lieu).
 - Ket qua: Da co 12 cau hoi de lan data flow va debug.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -406,7 +406,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P14.md` (khong doi source code web).
 - Lenh run/test: N/A (vong code-reading tai lieu).
 - Ket qua: Da co quy trinh 5 buoc khoanh vung nguyen nhan bug.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -423,7 +423,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P15.md` (khong doi source code web).
 - Lenh run/test: N/A (vong code-reading tai lieu).
 - Ket qua: Da co template 9 dong de doc file co he thong.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -442,7 +442,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P16.md` (khong doi source code web).
 - Lenh run/test: N/A (vong planning tai lieu).
 - Ket qua: Da co roadmap 8 buoc theo luong Input -> Data -> Display -> Export -> Security.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -459,7 +459,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P17.md` (khong doi source code web).
 - Lenh run/test: N/A (vong planning tai lieu).
 - Ket qua: Da co pham vi va tieu chi test cho vong lap #1.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -476,7 +476,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P18.md` (khong doi source code web).
 - Lenh run/test: N/A (vong planning tai lieu).
 - Ket qua: Da co danh sach validate uu tien va test pass/fail.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -493,7 +493,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P19.md` (khong doi source code web).
 - Lenh run/test: N/A (vong planning tai lieu).
 - Ket qua: Da co mapping du lieu chi tiet tu form sang preview.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -510,7 +510,7 @@ Khong phat sinh loi.
 - File thay doi: `docs/prompt-results/P20.md` (khong doi source code web).
 - Lenh run/test: N/A (vong planning tai lieu).
 - Ket qua: Da co huong lam, gioi han chap nhan va tieu chi test cho export.
-- Drift danh gia: large (trang thai chung cua branch; prompt nay khong tang drift code).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace; prompt nay khong tang thay doi code).
 
 #### Anh ui
 
@@ -529,7 +529,7 @@ Khong phat sinh loi.
 - File thay doi: `index.html`, `styles.css`, `scripts/scripts.js`, `docs/prompt-results/P21.md`.
 - Lenh run/test: mo trang local + test tay cac truong form.
 - Ket qua: Co khung validation va badge trang thai tren preview.
-- Drift danh gia: large (trang thai chung cua branch).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace).
 
 #### Anh ui
 
@@ -551,7 +551,7 @@ Mo ta: [P21] [code] `scripts/scripts.js` them luong collect/render validation.
 - File thay doi: `index.html`, `docs/prompt-results/P22.md`.
 - Lenh run/test: reload trang sau khi sua script path.
 - Ket qua: JS da nap dung, luong input -> preview/validation da chay.
-- Drift danh gia: large (trang thai chung cua branch).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace).
 
 #### Anh ui
 
@@ -569,7 +569,7 @@ Mo ta: [P22] [code] `index.html` sua duong dan script de kich hoat JS runtime.
 - File thay doi: `index.html`, `styles.css`, `scripts/scripts.js`, `docs/prompt-results/P23.md`.
 - Lenh run/test: bam `Tai du lieu bien`, kiem tra canh bao, bam `Xoa nhanh`.
 - Ket qua: Co bo nut test bien + reset, phuc vu demo test case bien.
-- Drift danh gia: large (trang thai chung cua branch).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace).
 
 #### Anh ui
 
@@ -591,7 +591,7 @@ Mo ta: [P23] [code] `scripts/scripts.js` them ham nap du lieu bien va reset nhan
 - File thay doi: `index.html`, `styles.css`, `docs/prompt-results/P24.md`.
 - Lenh run/test: mo panel regression va doi chieu tung muc test.
 - Ket qua: Co panel checklist regression toi thieu ngay tren giao dien.
-- Drift danh gia: large (trang thai chung cua branch).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace).
 
 #### Anh ui
 
@@ -611,7 +611,7 @@ Mo ta: [P24] [code] `styles.css` them style panel regression.
 - File thay doi: `index.html`, `styles.css`, `docs/prompt-results/P25.md`.
 - Lenh run/test: mo panel mau bao cao va xac nhan hien du 5 muc.
 - Ket qua: Co panel huong dan fix bug theo format chuan.
-- Drift danh gia: large (trang thai chung cua branch).
+- Muc do thay doi vong nay: large (trang thai tong the cua workspace).
 
 #### Anh ui
 
@@ -646,7 +646,7 @@ Ghi chu chat luong anh:
 
 - Ket qua: Da map ro input -> FormData -> validate -> preview render.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -682,7 +682,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da chi ro state nam o form fields va trigger render qua `input/click`.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -718,7 +718,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da them comment o 3 diem kho doc trong `scripts/scripts.js`.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -756,7 +756,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da tach helper `parseSkills(...)` khoi ham `refreshPreview()`.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -794,7 +794,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co so do 7 buoc event -> update preview cho pha DOM.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -830,7 +830,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co backlog uu tien 3 muc.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -866,7 +866,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co bo quy tac local-first cho du lieu CV.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -902,7 +902,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co quy tac xoa du lieu va thong bao nguoi dung.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -938,7 +938,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da ro uu/nhuoc diem ky thuat + bao mat.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -974,7 +974,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co 3 buoc nang cap tu ban ca nhan -> ban chia se.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1015,7 +1015,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da dat nen cho React migration.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1061,7 +1061,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Day du file lint + postcss + README.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1107,7 +1107,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Lock file da khoi phuc, va dependency da duoc cai thanh cong sau khi doi cache local.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1145,7 +1145,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Bo asset co ban trong `public/` da duoc them.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1187,7 +1187,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Bo asset startup da day du.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1233,7 +1233,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co `layout.tsx` + global css cho app React.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1275,7 +1275,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: `page.tsx` da tro thanh diem vao giao dien React.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1315,7 +1315,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: State management chuyen sang store (`zustand`).
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1357,7 +1357,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co config template + component selector.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1399,7 +1399,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Code preview da khoi phuc; runtime React da chay va chup duoc UI that.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh env
@@ -1450,7 +1450,7 @@ Mo ta: [P45] [err] Anh loi lich su truoc khi cai lai dependency; da duoc xu ly t
 
 - Ket qua: Bo preview template duoc mo rong.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1488,7 +1488,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co du 3 preview templates.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1526,7 +1526,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Form React bat dau tach module theo field group.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1568,7 +1568,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Them 2 module kinh nghiem va hoc van.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1610,7 +1610,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Them module ngon ngu + reference.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1652,7 +1652,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Editor layer React da ket noi lai day du.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1694,7 +1694,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Co parser + modal import noi dung CV.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1741,7 +1741,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co bo document PDF + template PDF dau tien.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1781,9 +1781,9 @@ Khong co anh o nhom nay.
 
 - Lenh run/test: N/A (source sync).
 
-- Ket qua: Bo template PDF da dong bo voi cac preview mau.
+- Ket qua: Bo template PDF da nhat quan voi cac preview mau.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1825,7 +1825,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da co `PDFDownloadLink` va UI hien thi nut `Download PDF` tren runtime that.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1865,7 +1865,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da tom tat khac biet kien truc theo ngon ngu nguoi moi.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1901,7 +1901,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Data flow da duoc map input -> store -> preview -> PDF.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1937,7 +1937,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da ghi ro pham vi khoi phuc va dieu kien test runtime con no.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -1971,9 +1971,9 @@ Khong co anh o nhom nay.
 
 - Lenh run/test: N/A (audit).
 
-- Ket qua: Chot nguyen tac: core app bam kien truc dich, docs giu cho day hoc.
+- Ket qua: Chot nguyen tac: core app bam sat dinh huong san pham, docs giu cho day hoc.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree
@@ -2009,7 +2009,7 @@ Khong co anh o nhom nay.
 
 - Ket qua: Da tong hop changelog 3 giai doan DOM -> React -> PDF va buoc tiep theo.
 
-- Drift danh gia: large.
+- Muc do thay doi vong nay: large.
 
 
 #### Anh tree

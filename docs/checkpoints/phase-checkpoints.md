@@ -10,7 +10,7 @@ Muc tieu: co moc quay lui ro rang theo 3 giai doan de day hoc va review.
 
 2. React phase checkpoint (`phase-react-p52`)
 - Commit: `609c5b5`
-- Noi dung: khoi phuc React architecture va bo component cốt loi.
+- Noi dung: hoan thien React architecture va bo component cot loi.
 
 3. PDF phase checkpoint (`phase-pdf-p60`)
 - Commit: `69dab5c`
@@ -49,4 +49,4 @@ Strict-lite replay map:
 ## Luu y
 
 - Muc tieu day hoc: rollback theo checkpoint, sau do tiep tuc prompt-loop.
-- Muc tieu san pham: branch `cv-builder` van bam sat huong kien truc dich.
+- Muc tieu san pham: branch `cv-builder` van bam sat dinh huong san pham can dat.

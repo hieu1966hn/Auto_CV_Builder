@@ -9,12 +9,12 @@ Minimum fields (required):
 - Step
 - Core files touched
 - Teaching reason
-- Drift vs target architecture (`small` / `medium` / `large`)
+- Change level this round (`small` / `medium` / `large`)
 
 Recommended command flow:
-1. Run drift check: `bash scripts/check_drift.sh`
+1. Review current diff: `git diff --name-status <checkpoint-ref>...HEAD`
 2. Create checkpoint file:
-   `bash scripts/new_checkpoint.sh "<step>" "<files>" "<teaching reason>" "<drift>"`
+   `bash scripts/new_checkpoint.sh "<step>" "<files>" "<teaching reason>" "<change-level>"`
 3. Add optional notes and commit with lesson changes.
 
 Phase rollback map:

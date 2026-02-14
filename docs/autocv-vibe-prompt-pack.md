@@ -47,7 +47,7 @@ Nguyen tac dung:
 2. Sau khi AI sinh code, luon run + test ngay.
 3. Neu co loi, uu tien prompt nhom `Testing` roi `Code Reading`.
 4. Chup anh theo quy tac ten o tren de viet sach.
-5. Moi vong nen cap nhat checkpoint: `bash scripts/check_drift.sh`.
+5. Moi vong nen cap nhat checkpoint: ghi lai muc tieu, file da doi, test da chay.
 
 ---
 
@@ -129,29 +129,29 @@ Muc tieu: quan ly dau ra, bao mat, nang cap san pham va kiem soat no ky thuat.
 
 ---
 
-## D. Can chinh ve kien truc dich (Bat buoc de khong lech qua xa)
-Muc tieu: sau khi hoc vien da quen vong lap, dung nhom prompt nay de dua branch demo ve gan kien truc dich cua san pham.
+## C4. Managing AI (Hoan thien ban san pham)
+Muc tieu: khi hoc vien da quen vong lap, day manh nang cap chat luong theo cach tu nhien de chot ban dung duoc that.
 
-### D1. Problem Decomposition (5 prompts)
-46. `Hay so sanh nhanh branch hien tai voi kien truc dich: file nao them, file nao xoa, file nao doi. Tra ket qua theo bang A/M/D.`
-47. `Tu diff voi kien truc dich, hay chia ke hoach dong bo thanh 3 dot nho: (1) khoi phuc cau truc, (2) khoi phuc config, (3) gop logic bai hoc.`
-48. `Hay lap bang quyet dinh giu/bo cho tung thay doi lon, kem ly do su pham va tac dong ky thuat.`
-49. `Neu muc tieu la "gan kien truc dich nhat co the", hay xep thu tu khoi phuc file tu de den kho, uu tien file can cho build chay.`
-50. `Hay de xuat ke hoach commit nho de dong bo (moi commit 1 y), de de review va rollback khi can.`
+### C4. Problem Decomposition (5 prompts)
+46. `Hay audit nhanh trang tao CV hien tai theo 4 goc: UX, data flow, kha nang mo rong, hieu nang. Moi goc chi ra 2 diem uu tien cao nhat.`
+47. `Tu audit tren, hay tao ke hoach 3 vong nho de lam sach code va UI ma khong pha tinh nang dang chay.`
+48. `Hay lap bang quyet dinh giu/bo cho cac phan logic lon: phan nao nen giu nguyen, phan nao nen tach module, phan nao nen doi ten de de doc.`
+49. `Neu chi co 1 ngay de nang chat luong, hay xep thu tu viec can lam tu de den kho, uu tien muc anh huong den nguoi dung.`
+50. `Hay de xuat ke hoach commit nho (moi commit 1 y) cho dot hoan thien, kem mo ta cach rollback neu co loi.`
 
-### D2. Testing (5 prompts)
-51. `Sau moi commit dong bo ve kien truc dich, hay dua checklist test bat buoc de chac rang app khong vo.`
-52. `Hay tao bo regression test danh cho giai doan reconciliation voi kien truc dich: UI, data flow, export, basic security.`
-53. `Neu phat hien xung dot giua "feature demo" va "kien truc dich", hay de xuat cach giai quyet co thu tu uu tien ro rang.`
-54. `Hay danh gia drift hien tai theo muc small/medium/large dua tren so file thay doi va core-structure changes.`
-55. `Khi ket thuc dot dong bo, hay yeu cau AI tu bao cao: con lech gi voi kien truc dich, rui ro nao chua xu ly, buoc tiep theo la gi.`
+### C5. Testing (5 prompts)
+51. `Sau moi commit hoan thien, hay dua checklist smoke test bat buoc de chac rang app van chay on.`
+52. `Hay tao bo regression test cho 4 luong chinh: nhap lieu, preview, chuyen mau/template, xuat PDF.`
+53. `Neu co xung dot giua "de day hoc" va "on dinh san pham", hay de xuat cach xu ly theo thu tu uu tien ro rang.`
+54. `Hay danh gia muc do thay doi cua vong hien tai theo small/medium/large dua tren so file va muc anh huong hanh vi nguoi dung.`
+55. `Khi ket thuc dot hoan thien, hay tao bao cao ngan: da sua gi, con rui ro nao, test nao can chay lai truoc khi phat hanh.`
 
-### D3. Code Reading (5 prompts)
-56. `Hay giai thich nhung khac biet quan trong nhat giua code hien tai va kien truc dich bang ngon ngu nguoi moi.`
-57. `Chi ro phan state/data flow nao trong branch demo dang khac voi kien truc dich va tac dong den hanh vi nguoi dung.`
-58. `Hay tom tat nhung file da duoc khoi phuc theo kien truc dich, file nao con no dong bo, va tai sao.`
-59. `Voi tung file con lech kien truc dich, hay cho 1 ly do giu lai hoac 1 de xuat merge lai de dat can bang day hoc + san pham.`
-60. `Tao bao cao cuoi ky: muc do gan voi kien truc dich (phan tram uoc tinh), changelog chinh, va danh sach viec can dong bo dot sau.`
+### C6. Code Reading (5 prompts)
+56. `Hay giai thich nhung thay doi quan trong nhat trong code hien tai bang ngon ngu nguoi moi, tap trung vao state/data flow.`
+57. `Chi ro nhung diem state/data flow de gay bug nhat va cach doc code de nhan ra som.`
+58. `Tom tat cac file da duoc lam sach, file nao con kho doc, va de xuat 1 buoc cai thien tiep theo cho tung file.`
+59. `Voi tung file con no ky thuat, hay cho 1 ly do tam thoi chap nhan no hoac 1 ke hoach sua an toan.`
+60. `Tao ban tong ket cuoi chu ky: muc do hoan thien hien tai, changelog chinh, va danh sach viec uu tien cho chu ky tiep theo.`
 
 ---
 
@@ -160,5 +160,5 @@ Muc tieu: sau khi hoc vien da quen vong lap, dung nhom prompt nay de dua branch 
 ### Muc co ban (cho hoc vien moi)
 `Ban dang ho tro du an AutoCV cho nguoi moi hoc. Hay lam dung 6 muc theo thu tu: (1) Nhac lai muc tieu vong nay, (2) Dua code thay doi toi thieu, (3) Chi ro file can sua, (4) Checklist test thu cong, (5) Neu loi thi cach debug, (6) Giai thich data flow/state/re-render bang ngon ngu don gian.`
 
-### Muc nang cao (khi can bam sat kien truc dich)
-`Ban dang ho tro branch demo AutoCV nhung phai giu khong lech qua xa kien truc dich. Moi tra loi bat buoc gom: (1) muc tieu vong, (2) diff du kien voi kien truc dich, (3) patch toi thieu, (4) test + regression, (5) anh can chup theo nhom env/tree/code/ui/err/test, (6) danh gia drift small/medium/large.`
+### Muc nang cao (khi can on dinh san pham)
+`Ban dang ho tro du an AutoCV cho nguoi moi nhung can giu chat luong san pham. Moi tra loi bat buoc gom: (1) muc tieu vong, (2) thay doi toi thieu, (3) file can sua, (4) checklist test + regression, (5) anh can chup theo nhom env/tree/code/ui/err/test, (6) danh gia muc do thay doi small/medium/large.`
