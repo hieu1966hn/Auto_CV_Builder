@@ -198,6 +198,10 @@ const captureDomPrompt = async (browser, promptNo, criteriaCount) => {
           await page.fill('input[name="fullName"]', '');
           await page.fill('input[name="email"]', '');
           await clickIfVisible(page, '#generate-btn');
+        } else {
+          // Keep reset evidence but open available helper panels so screenshots are prompt-specific.
+          await clickIfVisible(page, '.regression-panel summary');
+          await clickIfVisible(page, '.report-panel summary');
         }
       } else {
         await fillDomBase(page, promptNo, criterion);

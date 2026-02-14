@@ -113,45 +113,44 @@ Muc tieu: quan ly dau ra, bao mat, nang cap san pham va kiem soat no ky thuat.
 34. `Tao bang trade-off giua 2 huong: web tinh chay local vs web co backend luu CV online.`
 35. `Hay lap ke hoach nang cap AutoCV tu ban ca nhan sang ban co the chia se cho ban be dung thu an toan.`
 
-### C2. Testing (5 prompts)
-36. `Tao checklist kiem thu bao mat muc co ban cho AutoCV: XSS, input sanitation, ro ri du lieu, file upload an toan.`
-37. `Dua ra kich ban kiem thu quyen rieng tu: nguoi dung muon xoa du lieu ngay sau phien lam viec thi he thong xu ly the nao.`
-38. `Hay tao test plan truoc khi phat hanh ban moi: smoke test, regression test, compatibility test tren mobile/desktop.`
-39. `Mo phong 1 su co that: export PDF loi font tieng Viet. Hay dua runbook xu ly su co theo tung buoc.`
-40. `Hay de xuat bo chi so theo doi chat luong ban phat hanh AutoCV (ty le loi, thoi gian sua, ty le test pass).`
+### C2. React migration - setup (5 prompts)
+36. `Toi muon chuyen AutoCV tu DOM thuan sang React. Hay tao checklist setup config toi thieu (Next, TypeScript, lint, style) theo thu tu de thuc hien.`
+37. `Hay viet prompt de thiet lap lint/build metadata cho app React, kem cach test nhanh sau moi buoc.`
+38. `Hay huong dan khoa phien ban dependency de moi truong hoc tap chay on dinh, kem cach xu ly khi install loi cache.`
+39. `Hay tao prompt bo sung static assets co ban cho app shell React va giai thich tung asset dung de lam gi.`
+40. `Sau khi bo sung assets, hay dua checklist smoke test de xac nhan app render binh thuong tren local.`
 
-### C3. Code Reading (5 prompts)
-41. `Audit giup toi kien truc hien tai: phan nao de hong nhat khi them tinh nang moi, vi sao.`
-42. `Doc code va liet ke du lieu nhay cam nao dang di qua app, vi tri nao can che/ma hoa/khong log.`
-43. `Hay chi ra cac diem coupling cao trong code hien tai va cach tach module de de bao tri hon.`
-44. `Viet ban do thu muc du an AutoCV theo ngon ngu nguoi moi: moi file lam gi, phu thuoc vao dau.`
-45. `Tao mau "phien review code voi AI" de toi dung lai moi tuan: Muc tieu, Diff chinh, Rui ro, Test da chay, Viec tiep theo.`
+### C3. React migration - architecture (5 prompts)
+41. `Hay tao prompt dung app shell React (layout + global styles) de bat dau chay UI theo component.`
+42. `Hay tao prompt chuyen trang chinh sang React page va mo ta diem vao moi cua giao dien.`
+43. `Hay tao prompt dinh nghia model du lieu CV + store tap trung, kem giai thich data flow cho nguoi moi.`
+44. `Hay tao prompt them cau hinh template va component chon template trong editor React.`
+45. `Hay tao prompt dung preview template dau tien va checklist de xac nhan preview cap nhat theo state.`
 
 ---
 
-## C4. Managing AI (Hoan thien ban san pham)
-Muc tieu: khi hoc vien da quen vong lap, day manh nang cap chat luong theo cach tu nhien de chot ban dung duoc that.
+## C4. React migration - mo rong editor (5 prompts)
+Muc tieu: mo rong app React tu ban toi thieu thanh bo editor du cho day hoc va su dung ca nhan.
 
-### C4. Problem Decomposition (5 prompts)
-46. `Hay audit nhanh trang tao CV hien tai theo 4 goc: UX, data flow, kha nang mo rong, hieu nang. Moi goc chi ra 2 diem uu tien cao nhat.`
-47. `Tu audit tren, hay tao ke hoach 3 vong nho de lam sach code va UI ma khong pha tinh nang dang chay.`
-48. `Hay lap bang quyet dinh giu/bo cho cac phan logic lon: phan nao nen giu nguyen, phan nao nen tach module, phan nao nen doi ten de de doc.`
-49. `Neu chi co 1 ngay de nang chat luong, hay xep thu tu viec can lam tu de den kho, uu tien muc anh huong den nguoi dung.`
-50. `Hay de xuat ke hoach commit nho (moi commit 1 y) cho dot hoan thien, kem mo ta cach rollback neu co loi.`
+46. `Hay tao prompt them template preview thu 2 de nguoi dung co lua chon phong cach CV.`
+47. `Hay tao prompt them template preview thu 3, dam bao component moi van dung chung data model hien tai.`
+48. `Hay tao prompt tach form thanh cac component nho (phan 1: thong tin ca nhan + ky nang) de de doc code.`
+49. `Hay tao prompt tach form thanh cac component nho (phan 2: kinh nghiem + hoc van), kem checklist test binding.`
+50. `Hay tao prompt tach form thanh cac component nho (phan 3: ngon ngu + nguoi tham chieu), giu UI nhat quan.`
 
-### C5. Testing (5 prompts)
-51. `Sau moi commit hoan thien, hay dua checklist smoke test bat buoc de chac rang app van chay on.`
-52. `Hay tao bo regression test cho 4 luong chinh: nhap lieu, preview, chuyen mau/template, xuat PDF.`
-53. `Neu co xung dot giua "de day hoc" va "on dinh san pham", hay de xuat cach xu ly theo thu tu uu tien ro rang.`
-54. `Hay danh gia muc do thay doi cua vong hien tai theo small/medium/large dua tren so file va muc anh huong hanh vi nguoi dung.`
-55. `Khi ket thuc dot hoan thien, hay tao bao cao ngan: da sua gi, con rui ro nao, test nao can chay lai truoc khi phat hanh.`
+### C5. Hoan thien editor + PDF (5 prompts)
+51. `Hay tao prompt hoan thien editor tong hop (gom upload anh + ghep cac sub-form) de chuan bi xuat ban.`
+52. `Hay tao prompt them Smart Import de parse noi dung CV vao store React, kem checklist test sau import.`
+53. `Hay tao prompt bat dau xuat PDF bang @react-pdf/renderer voi template mac dinh.`
+54. `Hay tao prompt mo rong bo template PDF cho cac phong cach con lai, dam bao noi dung nhat quan voi preview.`
+55. `Hay tao prompt ket noi nut Download PDF va checklist smoke test cho luong tai file.`
 
-### C6. Code Reading (5 prompts)
-56. `Hay giai thich nhung thay doi quan trong nhat trong code hien tai bang ngon ngu nguoi moi, tap trung vao state/data flow.`
-57. `Chi ro nhung diem state/data flow de gay bug nhat va cach doc code de nhan ra som.`
-58. `Tom tat cac file da duoc lam sach, file nao con kho doc, va de xuat 1 buoc cai thien tiep theo cho tung file.`
-59. `Voi tung file con no ky thuat, hay cho 1 ly do tam thoi chap nhan no hoac 1 ke hoach sua an toan.`
-60. `Tao ban tong ket cuoi chu ky: muc do hoan thien hien tai, changelog chinh, va danh sach viec uu tien cho chu ky tiep theo.`
+### C6. Audit + tong ket phat hanh (5 prompts)
+56. `Hay tom tat khac biet giua ban DOM va ban React/PDF bang ngon ngu de nguoi moi de hieu.`
+57. `Hay ve lai data flow hien tai cua AutoCV theo chuoi: input -> store -> preview -> PDF.`
+58. `Hay tong hop nhung phan da hoan thien va no ky thuat con lai theo bang uu tien.`
+59. `Hay de xuat nguyen tac giu/bo cho cac file phuc vu day hoc so voi file phuc vu san pham.`
+60. `Hay tao bao cao tong ket chu ky: changelog 3 giai doan, trang thai hien tai, va danh sach uu tien tiep theo.`
 
 ---
 

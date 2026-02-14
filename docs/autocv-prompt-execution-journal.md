@@ -1005,13 +1005,13 @@ Khong co anh o nhom nay.
 
 ### Prompt P36
 
-- Muc tieu: Khoi phuc config runtime cho React/Next.
+- Muc tieu: Khoi tao config runtime cho React/Next.
 
 - Prompt da dung: Prompt #36 trong `docs/autocv-vibe-prompt-pack.md`.
 
 - File thay doi: `package.json`, `next.config.ts`, `tsconfig.json`, `docs/prompt-results/P36.md`
 
-- Lenh run/test: kiem tra file config duoc khoi phuc tu kho tham chieu.
+- Lenh run/test: kiem tra file config duoc tao day du cho runtime React.
 
 - Ket qua: Da dat nen cho React migration.
 
@@ -1040,9 +1040,9 @@ Mo ta: [P36] [code] Cau hinh TypeScript.
 
 #### Anh ui
 
-![P36 ui 01](screenshots/prompt-36/P36-ui-01-runtime-after-prompt.png)
+![P36 ui 01](screenshots/prompt-36/P36-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P36] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P36] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1051,13 +1051,13 @@ Khong co anh o nhom nay.
 
 ### Prompt P37
 
-- Muc tieu: Khoi phuc lint/build metadata.
+- Muc tieu: Hoan thien lint/build metadata.
 
 - Prompt da dung: Prompt #37 trong `docs/autocv-vibe-prompt-pack.md`.
 
 - File thay doi: `eslint.config.mjs`, `postcss.config.mjs`, `README.md`, `docs/prompt-results/P37.md`
 
-- Lenh run/test: N/A (khoi phuc file cau hinh).
+- Lenh run/test: N/A (thiet lap file cau hinh).
 
 - Ket qua: Day du file lint + postcss + README.
 
@@ -1086,9 +1086,9 @@ Mo ta: [P37] [code] README runtime huong dan local.
 
 #### Anh ui
 
-![P37 ui 01](screenshots/prompt-37/P37-ui-01-runtime-after-prompt.png)
+![P37 ui 01](screenshots/prompt-37/P37-ui-01-runtime-test-criterion-1.png)
 
-Mo ta: [P37] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P37] [ui] Anh runtime theo tieu chi test #1, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1097,7 +1097,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P38
 
-- Muc tieu: Khoi phuc lock file dependency.
+- Muc tieu: Chot lock file dependency.
 
 - Prompt da dung: Prompt #38 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1105,7 +1105,7 @@ Khong co anh o nhom nay.
 
 - Lenh run/test: vong dau thu `npm install` gap loi moi truong; da xu ly thanh cong bang cache local o P45.
 
-- Ket qua: Lock file da khoi phuc, va dependency da duoc cai thanh cong sau khi doi cache local.
+- Ket qua: Lock file da on dinh, va dependency da duoc cai thanh cong sau khi doi cache local.
 
 - Muc do thay doi vong nay: large.
 
@@ -1124,9 +1124,9 @@ Mo ta: [P38] [code] Dong bo lock file dependency.
 
 #### Anh ui
 
-![P38 ui 01](screenshots/prompt-38/P38-ui-01-runtime-after-prompt.png)
+![P38 ui 01](screenshots/prompt-38/P38-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P38] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P38] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1135,7 +1135,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P39
 
-- Muc tieu: Khoi phuc static asset (phan 1).
+- Muc tieu: Bo sung static asset (phan 1).
 
 - Prompt da dung: Prompt #39 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1166,9 +1166,9 @@ Mo ta: [P39] [code] Asset globe.svg.
 
 #### Anh ui
 
-![P39 ui 01](screenshots/prompt-39/P39-ui-01-runtime-after-prompt.png)
+![P39 ui 01](screenshots/prompt-39/P39-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P39] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P39] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1177,7 +1177,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P40
 
-- Muc tieu: Khoi phuc static asset (phan 2).
+- Muc tieu: Bo sung static asset (phan 2).
 
 - Prompt da dung: Prompt #40 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1212,9 +1212,9 @@ Mo ta: [P40] [code] Asset window.svg.
 
 #### Anh ui
 
-![P40 ui 01](screenshots/prompt-40/P40-ui-01-runtime-after-prompt.png)
+![P40 ui 01](screenshots/prompt-40/P40-ui-01-runtime-test-criterion-1.png)
 
-Mo ta: [P40] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P40] [ui] Anh runtime theo tieu chi test #1, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1223,7 +1223,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P41
 
-- Muc tieu: Khoi phuc app shell React.
+- Muc tieu: Tao app shell React.
 
 - Prompt da dung: Prompt #41 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1254,9 +1254,9 @@ Mo ta: [P41] [code] App layout cap goc.
 
 #### Anh ui
 
-![P41 ui 01](screenshots/prompt-41/P41-ui-01-runtime-after-prompt.png)
+![P41 ui 01](screenshots/prompt-41/P41-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P41] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P41] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1265,7 +1265,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P42
 
-- Muc tieu: Khoi phuc page React va moc cau truc.
+- Muc tieu: Dua page React vao luong chay.
 
 - Prompt da dung: Prompt #42 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1294,9 +1294,9 @@ Mo ta: [P42] [code] Trang chu React voi editor + preview.
 
 #### Anh ui
 
-![P42 ui 01](screenshots/prompt-42/P42-ui-01-runtime-after-prompt.png)
+![P42 ui 01](screenshots/prompt-42/P42-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P42] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P42] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1305,7 +1305,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P43
 
-- Muc tieu: Khoi phuc types + store tap trung.
+- Muc tieu: Chot types + store tap trung.
 
 - Prompt da dung: Prompt #43 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1336,9 +1336,9 @@ Mo ta: [P43] [code] Store tap trung cho resume.
 
 #### Anh ui
 
-![P43 ui 01](screenshots/prompt-43/P43-ui-01-runtime-after-prompt.png)
+![P43 ui 01](screenshots/prompt-43/P43-ui-01-runtime-test-criterion-1.png)
 
-Mo ta: [P43] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P43] [ui] Anh runtime theo tieu chi test #1, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1347,7 +1347,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P44
 
-- Muc tieu: Khoi phuc module chon template.
+- Muc tieu: Them module chon template.
 
 - Prompt da dung: Prompt #44 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1378,9 +1378,9 @@ Mo ta: [P44] [code] UI chon template.
 
 #### Anh ui
 
-![P44 ui 01](screenshots/prompt-44/P44-ui-01-runtime-after-prompt.png)
+![P44 ui 01](screenshots/prompt-44/P44-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P44] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P44] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1389,7 +1389,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P45
 
-- Muc tieu: Khoi phuc preview component dau tien.
+- Muc tieu: Tao preview component dau tien.
 
 - Prompt da dung: Prompt #45 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1397,7 +1397,7 @@ Khong co anh o nhom nay.
 
 - Lenh run/test: `npm_config_cache=$PWD/.npm-cache npm install --no-audit --no-fund` -> `npm run dev`.
 
-- Ket qua: Code preview da khoi phuc; runtime React da chay va chup duoc UI that.
+- Ket qua: Code preview da tao xong; runtime React da chay va chup duoc UI that.
 
 - Muc do thay doi vong nay: large.
 
@@ -1427,9 +1427,9 @@ Mo ta: [P45] [code] Template preview Elegant.
 
 #### Anh ui
 
-![P45 ui 01](screenshots/prompt-45/P45-ui-01-runtime-after-prompt.png)
+![P45 ui 01](screenshots/prompt-45/P45-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P45] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P45] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1467,9 +1467,9 @@ Mo ta: [P46] [code] Template Impressive preview.
 
 #### Anh ui
 
-![P46 ui 01](screenshots/prompt-46/P46-ui-01-runtime-after-prompt.png)
+![P46 ui 01](screenshots/prompt-46/P46-ui-01-runtime-test-criterion-1.png)
 
-Mo ta: [P46] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P46] [ui] Anh runtime theo tieu chi test #1, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1505,9 +1505,9 @@ Mo ta: [P47] [code] Template Expert preview.
 
 #### Anh ui
 
-![P47 ui 01](screenshots/prompt-47/P47-ui-01-runtime-after-prompt.png)
+![P47 ui 01](screenshots/prompt-47/P47-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P47] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P47] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1516,7 +1516,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P48
 
-- Muc tieu: Khoi phuc form components phan 1.
+- Muc tieu: Tach form components phan 1.
 
 - Prompt da dung: Prompt #48 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1547,9 +1547,9 @@ Mo ta: [P48] [code] Form ky nang.
 
 #### Anh ui
 
-![P48 ui 01](screenshots/prompt-48/P48-ui-01-runtime-after-prompt.png)
+![P48 ui 01](screenshots/prompt-48/P48-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P48] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P48] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1558,7 +1558,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P49
 
-- Muc tieu: Khoi phuc form components phan 2.
+- Muc tieu: Tach form components phan 2.
 
 - Prompt da dung: Prompt #49 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1589,9 +1589,9 @@ Mo ta: [P49] [code] Form hoc van.
 
 #### Anh ui
 
-![P49 ui 01](screenshots/prompt-49/P49-ui-01-runtime-after-prompt.png)
+![P49 ui 01](screenshots/prompt-49/P49-ui-01-runtime-test-criterion-1.png)
 
-Mo ta: [P49] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P49] [ui] Anh runtime theo tieu chi test #1, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1600,7 +1600,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P50
 
-- Muc tieu: Khoi phuc form components phan 3.
+- Muc tieu: Tach form components phan 3.
 
 - Prompt da dung: Prompt #50 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1631,9 +1631,9 @@ Mo ta: [P50] [code] Form reference.
 
 #### Anh ui
 
-![P50 ui 01](screenshots/prompt-50/P50-ui-01-runtime-after-prompt.png)
+![P50 ui 01](screenshots/prompt-50/P50-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P50] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P50] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1642,7 +1642,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P51
 
-- Muc tieu: Khoi phuc editor tong va upload anh.
+- Muc tieu: Hoan thien editor tong va upload anh.
 
 - Prompt da dung: Prompt #51 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1673,9 +1673,9 @@ Mo ta: [P51] [code] Form tong hop resume.
 
 #### Anh ui
 
-![P51 ui 01](screenshots/prompt-51/P51-ui-01-runtime-after-prompt.png)
+![P51 ui 01](screenshots/prompt-51/P51-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P51] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P51] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1684,7 +1684,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P52
 
-- Muc tieu: Khoi phuc import thong minh.
+- Muc tieu: Them import thong minh.
 
 - Prompt da dung: Prompt #52 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1715,9 +1715,9 @@ Mo ta: [P52] [code] Modal Smart Import.
 
 #### Anh ui
 
-![P52 ui 01](screenshots/prompt-52/P52-ui-01-runtime-after-prompt.png)
+![P52 ui 01](screenshots/prompt-52/P52-ui-01-runtime-test-criterion-1.png)
 
-Mo ta: [P52] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P52] [ui] Anh runtime theo tieu chi test #1, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1762,9 +1762,9 @@ Mo ta: [P53] [code] Template PDF Elegant.
 
 #### Anh ui
 
-![P53 ui 01](screenshots/prompt-53/P53-ui-01-runtime-after-prompt.png)
+![P53 ui 01](screenshots/prompt-53/P53-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P53] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P53] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1804,9 +1804,9 @@ Mo ta: [P54] [code] Template PDF Expert.
 
 #### Anh ui
 
-![P54 ui 01](screenshots/prompt-54/P54-ui-01-runtime-after-prompt.png)
+![P54 ui 01](screenshots/prompt-54/P54-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P54] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P54] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1844,9 +1844,9 @@ Mo ta: [P55] [code] Nut Download PDF su dung `@react-pdf/renderer`.
 
 #### Anh ui
 
-![P55 ui 01](screenshots/prompt-55/P55-ui-01-runtime-after-prompt.png)
+![P55 ui 01](screenshots/prompt-55/P55-ui-01-runtime-test-criterion-1.png)
 
-Mo ta: [P55] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
+Mo ta: [P55] [ui] Anh runtime theo tieu chi test #1, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1880,9 +1880,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-![P56 ui 01](screenshots/prompt-56/P56-ui-01-runtime-after-prompt.png)
+![P56 ui 01](screenshots/prompt-56/P56-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P56] [ui] Anh runtime sau prompt P56, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P56] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1916,9 +1916,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-![P57 ui 01](screenshots/prompt-57/P57-ui-01-runtime-after-prompt.png)
+![P57 ui 01](screenshots/prompt-57/P57-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P57] [ui] Anh runtime sau prompt P57, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P57] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1927,7 +1927,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P58
 
-- Muc tieu: Tong hop file da khoi phuc va no con lai.
+- Muc tieu: Tong hop pham vi da hoan thien va no con lai.
 
 - Prompt da dung: Prompt #58 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1935,7 +1935,7 @@ Khong co anh o nhom nay.
 
 - Lenh run/test: N/A (audit).
 
-- Ket qua: Da ghi ro pham vi khoi phuc va dieu kien test runtime con no.
+- Ket qua: Da ghi ro pham vi hoan thien va dieu kien test runtime con no.
 
 - Muc do thay doi vong nay: large.
 
@@ -1952,9 +1952,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-![P58 ui 01](screenshots/prompt-58/P58-ui-01-runtime-after-prompt.png)
+![P58 ui 01](screenshots/prompt-58/P58-ui-01-runtime-test-criterion-1.png)
 
-Mo ta: [P58] [ui] Anh runtime sau prompt P58, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P58] [ui] Anh runtime theo tieu chi test #1, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1963,7 +1963,7 @@ Khong co anh o nhom nay.
 
 ### Prompt P59
 
-- Muc tieu: Quyet dinh giu/merge cho file lech.
+- Muc tieu: Quyet dinh giu/bo file day hoc va file san pham.
 
 - Prompt da dung: Prompt #59 trong `docs/autocv-vibe-prompt-pack.md`.
 
@@ -1988,9 +1988,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-![P59 ui 01](screenshots/prompt-59/P59-ui-01-runtime-after-prompt.png)
+![P59 ui 01](screenshots/prompt-59/P59-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P59] [ui] Anh runtime sau prompt P59, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P59] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -2024,9 +2024,9 @@ Khong co anh o nhom nay.
 
 #### Anh ui
 
-![P60 ui 01](screenshots/prompt-60/P60-ui-01-runtime-after-prompt.png)
+![P60 ui 01](screenshots/prompt-60/P60-ui-02-runtime-test-criterion-2.png)
 
-Mo ta: [P60] [ui] Anh runtime sau prompt P60, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P60] [ui] Anh runtime theo tieu chi test #2, du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
