@@ -3,9 +3,11 @@
 import { spawn } from 'node:child_process';
 import { access, mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright-core';
 
 const ROOT = process.cwd();
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const DOM_PORT = 4173;
 const REACT_PORT = 3100;
 const BROWSER_PATH =
@@ -140,9 +142,17 @@ const setReactTemplate = async (page, promptNo) => {
 
   // The template picker sits between Smart Import and Download PDF in header.
   const templateToggle = pickerButton.locator('xpath=following-sibling::div[1]//button').first();
-  await templateToggle.click();
+  await templateToggle.click({ timeout: 1200 });
   const option = page.locator('div.absolute.top-full button').nth(targetIndex);
-  await option.click();
+  await option.click({ timeout: 1200 });
+};
+
+const trySetReactTemplate = async (page, promptNo) => {
+  try {
+    await setReactTemplate(page, promptNo);
+  } catch {
+    // Some historical checkpoints may not have the exact template dropdown behavior.
+  }
 };
 
 const captureReactPrompt = async (browser, promptNo) => {
@@ -166,7 +176,7 @@ const captureReactPrompt = async (browser, promptNo) => {
     await page.fill('#website', data.website);
     await page.fill('#summary', data.summary);
 
-    await setReactTemplate(page, promptNo);
+    await trySetReactTemplate(page, promptNo);
     await page.waitForTimeout(900);
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.waitForTimeout(120);
@@ -187,17 +197,23 @@ const run = async () => {
 
   await ensureExecutable(BROWSER_PATH);
 
-  const domServer = startProcess('python3', ['-m', 'http.server', String(DOM_PORT)], 'dom-server');
-  const reactServer = startProcess(
-    'node',
-    ['./node_modules/next/dist/bin/next', 'dev', '-H', '127.0.0.1', '-p', String(REACT_PORT)],
-    'react-server'
-  );
+  const needsDom = startPrompt <= 35;
+  const needsReact = endPrompt >= 36;
+  const nextBin = process.env.NEXT_BIN || path.join(SCRIPT_DIR, '..', 'node_modules', 'next', 'dist', 'bin', 'next');
+  const nextArgString = process.env.NEXT_ARGS || 'dev -H 127.0.0.1 -p ' + String(REACT_PORT);
+  const nextArgs = nextArgString.trim().split(/\s+/);
+
+  const domServer = needsDom
+    ? startProcess('python3', ['-m', 'http.server', String(DOM_PORT)], 'dom-server')
+    : null;
+  const reactServer = needsReact
+    ? startProcess('node', [nextBin, ...nextArgs], 'react-server')
+    : null;
 
   let browser;
   try {
-    await waitForUrl(`http://127.0.0.1:${DOM_PORT}/index.html`);
-    await waitForUrl(`http://127.0.0.1:${REACT_PORT}`);
+    if (needsDom) await waitForUrl(`http://127.0.0.1:${DOM_PORT}/index.html`);
+    if (needsReact) await waitForUrl(`http://127.0.0.1:${REACT_PORT}`);
 
     browser = await chromium.launch({
       executablePath: BROWSER_PATH,

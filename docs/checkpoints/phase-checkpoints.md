@@ -21,6 +21,9 @@ Branch checkpoints:
 - `checkpoint-react-p52` -> `609c5b5`
 - `checkpoint-pdf-p60` -> `69dab5c`
 
+Strict-lite replay map:
+- `docs/checkpoints/strict-lite-replay-map.md`
+
 ## Cach quay lui nhanh
 
 - Xem checkpoint:

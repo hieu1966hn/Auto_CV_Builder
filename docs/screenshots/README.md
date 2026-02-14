@@ -32,6 +32,8 @@ Rule for React/PDF runtime prompts:
 Replay command (capture UI for all prompts in one run):
 - `node scripts/replay_prompt_ui_runtime.mjs`
 - Optional range: `START_PROMPT=21 END_PROMPT=25 node scripts/replay_prompt_ui_runtime.mjs`
+- If replaying from an old checkpoint/worktree, prefer webpack mode:
+  - `NEXT_ARGS='dev --webpack -H 127.0.0.1 -p 3100' START_PROMPT=36 END_PROMPT=55 node scripts/replay_prompt_ui_runtime.mjs`
 
 Examples:
 - `P00-ui-01-current-state.png`

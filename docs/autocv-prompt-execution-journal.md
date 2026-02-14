@@ -9,6 +9,9 @@ Moi prompt se co:
 Trang thai hien tai:
 - Da replay runtime lai P01-P60.
 - Moi prompt co 1 anh UI rieng (`PXX-ui-01-runtime-after-prompt.png`), khong dung anh UI clone theo phase.
+- Da ap dung strict-lite checkpoint replay cho nhom prompt doi code lon:
+  - `P21-P25` tai checkpoint `7946abc`
+  - `P28-P29`, `P36-P55` tai checkpoint `609c5b5`
 
 Moc giai doan trong bo journal:
 - Giai doan DOM thuan (`FormData + eventListener`): P21-P35.
@@ -532,7 +535,7 @@ Khong phat sinh loi.
 
 ![P21 ui 01](screenshots/prompt-21/P21-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P21] [ui] Anh runtime sau prompt P21, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P21] [ui] Anh runtime strict-lite replay tai checkpoint `7946abc`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh code
 ![P21 code 01](screenshots/prompt-21/P21-code-01-index-validation-block.png)
@@ -554,7 +557,7 @@ Mo ta: [P21] [code] `scripts/scripts.js` them luong collect/render validation.
 
 ![P22 ui 01](screenshots/prompt-22/P22-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P22] [ui] Anh runtime sau prompt P22, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P22] [ui] Anh runtime strict-lite replay tai checkpoint `7946abc`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh code
 ![P22 code 01](screenshots/prompt-22/P22-code-01-index-script-path-fix.png)
@@ -572,7 +575,7 @@ Mo ta: [P22] [code] `index.html` sua duong dan script de kich hoat JS runtime.
 
 ![P23 ui 01](screenshots/prompt-23/P23-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P23] [ui] Anh runtime sau prompt P23, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P23] [ui] Anh runtime strict-lite replay tai checkpoint `7946abc`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh code
 ![P23 code 01](screenshots/prompt-23/P23-code-01-index-action-row.png)
@@ -594,7 +597,7 @@ Mo ta: [P23] [code] `scripts/scripts.js` them ham nap du lieu bien va reset nhan
 
 ![P24 ui 01](screenshots/prompt-24/P24-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P24] [ui] Anh runtime sau prompt P24, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P24] [ui] Anh runtime strict-lite replay tai checkpoint `7946abc`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh code
 ![P24 code 01](screenshots/prompt-24/P24-code-01-index-regression-panel.png)
@@ -614,7 +617,7 @@ Mo ta: [P24] [code] `styles.css` them style panel regression.
 
 ![P25 ui 01](screenshots/prompt-25/P25-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P25] [ui] Anh runtime sau prompt P25, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P25] [ui] Anh runtime strict-lite replay tai checkpoint `7946abc`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh code
 ![P25 code 01](screenshots/prompt-25/P25-code-01-index-report-panel.png)
@@ -734,7 +737,7 @@ Mo ta: [P28] [code] `scripts/scripts.js` duoc gan comment mo ta luong xu ly.
 
 ![P28 ui 01](screenshots/prompt-28/P28-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P28] [ui] Anh runtime sau prompt P28, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P28] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -772,7 +775,7 @@ Mo ta: [P29] [code] Refactor helper parse skill de ham chinh de doc hon.
 
 ![P29 ui 01](screenshots/prompt-29/P29-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P29] [ui] Anh runtime sau prompt P29, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P29] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1039,7 +1042,7 @@ Mo ta: [P36] [code] Cau hinh TypeScript.
 
 ![P36 ui 01](screenshots/prompt-36/P36-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P36] [ui] Anh runtime sau prompt P36, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P36] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1085,7 +1088,7 @@ Mo ta: [P37] [code] README runtime huong dan local.
 
 ![P37 ui 01](screenshots/prompt-37/P37-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P37] [ui] Anh runtime sau prompt P37, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P37] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1123,7 +1126,7 @@ Mo ta: [P38] [code] Dong bo lock file dependency.
 
 ![P38 ui 01](screenshots/prompt-38/P38-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P38] [ui] Anh runtime sau prompt P38, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P38] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1165,7 +1168,7 @@ Mo ta: [P39] [code] Asset globe.svg.
 
 ![P39 ui 01](screenshots/prompt-39/P39-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P39] [ui] Anh runtime sau prompt P39, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P39] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1211,7 +1214,7 @@ Mo ta: [P40] [code] Asset window.svg.
 
 ![P40 ui 01](screenshots/prompt-40/P40-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P40] [ui] Anh runtime sau prompt P40, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P40] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1253,7 +1256,7 @@ Mo ta: [P41] [code] App layout cap goc.
 
 ![P41 ui 01](screenshots/prompt-41/P41-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P41] [ui] Anh runtime sau prompt P41, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P41] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1293,7 +1296,7 @@ Mo ta: [P42] [code] Trang chu React voi editor + preview.
 
 ![P42 ui 01](screenshots/prompt-42/P42-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P42] [ui] Anh runtime sau prompt P42, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P42] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1335,7 +1338,7 @@ Mo ta: [P43] [code] Store tap trung cho resume.
 
 ![P43 ui 01](screenshots/prompt-43/P43-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P43] [ui] Anh runtime sau prompt P43, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P43] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1377,7 +1380,7 @@ Mo ta: [P44] [code] UI chon template.
 
 ![P44 ui 01](screenshots/prompt-44/P44-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P44] [ui] Anh runtime sau prompt P44, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P44] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1426,7 +1429,7 @@ Mo ta: [P45] [code] Template preview Elegant.
 
 ![P45 ui 01](screenshots/prompt-45/P45-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P45] [ui] Anh runtime sau prompt P45, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P45] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1466,7 +1469,7 @@ Mo ta: [P46] [code] Template Impressive preview.
 
 ![P46 ui 01](screenshots/prompt-46/P46-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P46] [ui] Anh runtime sau prompt P46, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P46] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1504,7 +1507,7 @@ Mo ta: [P47] [code] Template Expert preview.
 
 ![P47 ui 01](screenshots/prompt-47/P47-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P47] [ui] Anh runtime sau prompt P47, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P47] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1546,7 +1549,7 @@ Mo ta: [P48] [code] Form ky nang.
 
 ![P48 ui 01](screenshots/prompt-48/P48-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P48] [ui] Anh runtime sau prompt P48, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P48] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1588,7 +1591,7 @@ Mo ta: [P49] [code] Form hoc van.
 
 ![P49 ui 01](screenshots/prompt-49/P49-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P49] [ui] Anh runtime sau prompt P49, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P49] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1630,7 +1633,7 @@ Mo ta: [P50] [code] Form reference.
 
 ![P50 ui 01](screenshots/prompt-50/P50-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P50] [ui] Anh runtime sau prompt P50, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P50] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1672,7 +1675,7 @@ Mo ta: [P51] [code] Form tong hop resume.
 
 ![P51 ui 01](screenshots/prompt-51/P51-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P51] [ui] Anh runtime sau prompt P51, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P51] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1714,7 +1717,7 @@ Mo ta: [P52] [code] Modal Smart Import.
 
 ![P52 ui 01](screenshots/prompt-52/P52-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P52] [ui] Anh runtime sau prompt P52, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P52] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1761,7 +1764,7 @@ Mo ta: [P53] [code] Template PDF Elegant.
 
 ![P53 ui 01](screenshots/prompt-53/P53-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P53] [ui] Anh runtime sau prompt P53, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P53] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1803,7 +1806,7 @@ Mo ta: [P54] [code] Template PDF Expert.
 
 ![P54 ui 01](screenshots/prompt-54/P54-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P54] [ui] Anh runtime sau prompt P54, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P54] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
@@ -1843,7 +1846,7 @@ Mo ta: [P55] [code] Nut Download PDF su dung `@react-pdf/renderer`.
 
 ![P55 ui 01](screenshots/prompt-55/P55-ui-01-runtime-after-prompt.png)
 
-Mo ta: [P55] [ui] Anh runtime sau prompt P55, du lieu demo duoc dat rieng de phan biet tung vong lap.
+Mo ta: [P55] [ui] Anh runtime strict-lite replay tai checkpoint `609c5b5`; du lieu demo theo prompt de phan biet tung vong lap.
 
 #### Anh err
 
