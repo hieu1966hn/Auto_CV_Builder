@@ -29,6 +29,10 @@ Rule for React/PDF runtime prompts:
 - Prefer real runtime UI screenshots from `npm run dev` (e.g. P45, P55).
 - If a browser capture is blank/dark, recapture after waiting for `GET / 200` in dev log.
 
+Replay command (capture UI for all prompts in one run):
+- `node scripts/replay_prompt_ui_runtime.mjs`
+- Optional range: `START_PROMPT=21 END_PROMPT=25 node scripts/replay_prompt_ui_runtime.mjs`
+
 Examples:
 - `P00-ui-01-current-state.png`
 - `P03-code-01-initial-form.png`
